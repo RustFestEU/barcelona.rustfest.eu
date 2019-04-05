@@ -1,0 +1,112 @@
+header.navigation {
+  background-color: $brand_dark_blue;
+  border-bottom: 1px solid darken($brand_dark_blue, 10);
+  width: 100%;
+  z-index: 999;
+
+  section {
+    @include align-items(center);
+  }
+
+  .dates_props {
+      color: white;
+      font-size: 80%;
+      text-align: center;
+  }
+
+  a {
+    color: white;
+    &:hover {
+      color: $brand_yellow;
+    }
+  }
+
+  // To the left
+  .logo {
+    padding: 1em 2em;
+    display: block;
+
+    @include wide-device {
+      padding: 0.2em 2em;
+    }
+
+    // Show site title on mobile
+    .site-title {
+      padding: 1em;
+      @include wide-device {
+        display: none;
+      }
+    }
+
+    @include narrow-device {
+      // Align logo and site title
+      @include display(flex);
+      @include flex-direction(row);
+      @include align-items(center);
+
+      // Add small visual separation between logo/title and nav links
+      border-bottom: 1px solid $brand_blue;
+    }
+  }
+
+  // Nav menu
+  nav {
+    @include flex-grow(2);
+    text-align: center;
+
+    ul {
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 1em;
+        padding: 0.4em;
+
+        @include wide-device {
+          padding: 0;
+          margin: 0.5em;
+        }
+      }
+    }
+  }
+
+  // Elements on the far right
+  .social-bar {
+    ul {
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 0.3em;
+        border: 2px solid $brand_green;
+        border-radius: 100%;
+        position: relative;
+        width: 2em;
+        height: 2em;
+        transition: background-color 0.5s ease;
+        &:hover {
+          background-color: transparentize($brand_dark_blue, .5);
+          border-color: $brand_yellow;
+        }
+        svg {
+          height: 1em;
+          width: 1em;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+}
+
+.with-hero header.navigation {
+  @include wide-device {
+    background-color: transparentize($brand_dark_blue, 0.5);
+    border-bottom: none;
+    position: absolute;
+    transition: background-color 0.5s ease;
+  }
+}

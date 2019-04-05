@@ -1,0 +1,29 @@
+{% assign talk = site.sessions | where_exp: "item", "item.id contains include.session" | first %}
+
+<tr>
+	<td class="time">
+		<a href="/sessions/{{include.session}}">
+			{{talk.start | split: ":" | join: "<span>" }}</span>
+		</a>
+	</td>
+	<td>
+		<a href="/sessions/{{include.session}}">
+			<div class='talk_info'>
+				{% if talk.keynote %}<b>Keynote:</b>{% endif %}
+				{% if talk.type == 'workshop' %}<i>Workshop:</i>{% endif %}
+				{{talk.title}}<br>
+				{% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
+			</div>
+			<div class='speakers'>
+				{% for person in talk.speakers %}
+				<div class='speaker'>
+					{% assign speaker = site.data.speakers[person] %}
+					<img src="/assets/speakers/{{speaker.thumbnailUrl}}" />
+					{{speaker.name}}
+				</div>
+				{% endfor %}
+			</div>
+		</a>
+	</td>
+</tr>
+

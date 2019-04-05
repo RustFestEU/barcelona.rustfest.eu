@@ -1,0 +1,53 @@
+.team {
+  @include display(flex);
+  @include align-items(center);
+  @include flex-direction(row);
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+
+  > li {
+    @include flex-grow(1);
+
+  }
+
+  list-style: none;
+  padding: 0;
+
+  img {
+    border-radius: 100%;
+    max-width: 300px;
+    margin: 0.5em;
+    border: 2px solid #fff;
+  }
+
+  .name {
+    font-size: 1.2em
+  }
+
+  svg {
+    height: 1em;
+    width: 1em;
+    vertical-align: bottom;
+  }
+
+  a, a:visited {
+    color: white;
+  }
+
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85em;
+    li {
+      line-height: 1.2em;
+      display: inline;
+    }
+  }
+
+  .info {
+    color: white;
+    width: 100%;
+    padding: 0 1em 2em 1em;
+  }
+}

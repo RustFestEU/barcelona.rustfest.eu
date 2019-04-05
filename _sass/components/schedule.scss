@@ -1,0 +1,173 @@
+
+
+.schedule {
+  @include display(flex);
+  // @include align-items(top);
+  @include flex-direction(column);
+  // @include flex-wrap(wrap);
+  @include justify-content(space-around);
+
+  .speakers { justify-content: left; }
+
+  .badge {
+    padding: 0 0.5em;
+    border: 1px solid $brand_blue;
+    margin-right: 0.5em;
+    background: $brand_blue;
+    color: white;
+    font-weight: 600;
+  }
+
+  list-style: none;
+  padding: 0;
+
+  $base-background-color: white !default;
+  $base-border-color: gainsboro !default;
+  $base-border-radius: 3px !default;
+  $base-background-color: white !default;
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $dark-gray: #333 !default;
+  $base-font-color: $dark-gray !default;
+  $card-border-color: $base-border-color;
+  $card-border: 1px solid $card-border-color;
+  $card-background: lighten($card-border-color, 10%);
+
+  table {
+    margin-bottom: 3em;
+  }
+  td {
+    vertical-align: top;
+    padding: 5px 10px;
+    line-height: 2em;
+  }
+  td.time {
+    width: 100px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  td.time span {
+    font-size: 20px;
+  }
+
+  tr:nth-child(even) { background: #f7f7f7; }
+  tr:nth-child(odd) { background: #FFF; }
+
+  a {
+    color: black;
+    :hover {
+        color: $brand_blue;
+    }
+  }
+
+  h2 {
+    padding-left: 10px;
+  }
+
+  .centered {
+    vertical-align: middle;
+    text-align: center;
+    font-style: italic;
+  }
+  tr.breaks {
+    background: #5252c9;
+    color: #fff;
+  }
+
+  @media (min-width: 780px) {
+    tr .time a {
+      display: inline;
+    }
+    tr a {
+      display: flex;
+      flex-direction: row;
+
+      div {
+        font-size: 30px;
+        height: 100%;
+      }
+      .talk_info {
+        flex-grow: 1;
+      }
+      .speakers { max-width: 370px; }
+      .speaker { min-width: 370px; margin: 0px; padding: 0px; }
+    }
+  }
+
+  .workshops {
+
+    ul {
+      list-style: none;
+    }
+    a {
+      color: $brand_blue;
+    }
+  }
+
+  .speaker {
+    /*margin: 2em 1em;*/
+
+      img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.2);
+        vertical-align: middle;
+        margin: 0 0 .25em 0.75em;
+      }
+  }
+
+}
+
+@media print {
+  header, footer,
+  .popout,
+  .speaker img { display: none; }
+
+  .schedule {
+    h2 { margin-top: 0; }
+    td.time { font-size: 20px; }
+    td.time span { font-size: 12px; }
+    section {
+      max-width: none;
+      margin: initial;
+    }
+    td {
+      font-size: 20px;
+      line-height: initial;
+      padding: 1px 10px;
+    }
+    table {
+      margin-bottom: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .schedule tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .schedule td,
+  .schedule td.time {
+    display: block;
+    width: auto;
+  }
+  .schedule td.time {
+    text-align: left;
+    line-height: 1.25;
+    padding-top: .5em;
+    border-color: white;
+  }
+  .schedule td {
+    line-height: 1.5;
+  }
+  .schedule .speaker {
+    margin: .5em 0;
+  }
+  .schedule .speaker img {
+    margin-left: 0;
+  }
+}

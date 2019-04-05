@@ -1,0 +1,12 @@
+---
+
+example:
+  name: Example Name
+  thumbnailUrl: example.jpg
+  links:
+    - icon: github
+      link: https://github.com/example
+    - icon: twitter
+      link: https://twitter.com/example
+  desc: |
+    Example

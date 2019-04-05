@@ -1,0 +1,63 @@
+section.twitter {
+  padding: 1em 2em;
+  text-align: center;
+
+  @include wide-device {
+    padding: 3em 5em;
+  }
+
+  font-size: 1.3em;
+  background-image: url(../assets/backdrops/logo.svg);
+  background-position: 75% -25%;
+  background-repeat: no-repeat;
+}
+
+.whitewithwheel {
+  padding: {
+    top: 2em;
+    bottom: 4em;
+  };
+  font-size: 1.3em;
+  background-image: url(../assets/backdrops/logo.svg);
+  background-position: 95% -100%;
+  background-repeat: no-repeat;
+  button:not(:hover) {
+    background: #fff;
+  }
+}
+
+#call-for-proposals {
+  padding: 3em 0;
+}
+
+.location, #call-for-proposals {
+  a, a:hover, a:visited {
+    color: $brand_yellow;
+    font-weight: bold;
+  }
+}
+
+#news {
+  h2 {
+    margin: 0;
+  }
+  .headline {
+    margin: 1em 0 2em 0;
+  }
+
+  svg {
+    path {
+      fill: $brand_dark_blue;
+    }
+  }
+}
+
+#news, #tickets {
+  &::after {
+    margin: 5em auto 2em auto;
+    border-top: 1px solid transparentize($brand_dark_blue, 0.5);
+    content: " ";
+    display: block;
+    width: 50%;
+  }
+}

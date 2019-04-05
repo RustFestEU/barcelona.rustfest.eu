@@ -1,0 +1,45 @@
+
+
+#{$all-buttons}, a.button {
+  appearance: none;
+  background: transparent;
+  border: $action-color 2px solid;
+  border-radius: 100px;;
+  color: $action-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: $small-spacing $base-spacing;
+  text-decoration: none;
+  transition: background-color $base-duration $base-timing
+              border-color $base-duration $base-timing
+              color $base-duration $base-timing;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &.primary {
+    border: 2px solid $brand_yellow;
+    color: $brand_yellow;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: shade($action-color, 20%);
+    color: #fff;
+  }
+
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $action-color;
+    }
+  }
+}

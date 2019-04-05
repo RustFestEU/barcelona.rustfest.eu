@@ -1,0 +1,73 @@
+---
+layout: default
+permalink: /workshops/
+title: Workshops
+---
+
+<div class="popout">
+  <section>
+      <h1>RustFest {{ site.location.city }} {{ site.dates.year }} Workshops</h1>
+      <h2>{{ site.dates.workshops }}</h2>
+      <a href="/talks">🗣 List of Speakers</a>
+      <br />
+      <a href="/schedule">☷ Talks Schedule</a>
+      <br />
+      <a href="/about_impl_days">☷ impl Days</a>
+  </section>
+</div>
+
+<div>
+  <section>
+    <ul class="talks">
+      {% assign talks_data = site.sessions | where: "type", "workshop" | sort: "display_first" | reverse %}
+      {% for talk in talks_data %}
+        {% if talk.public %}
+          <li>
+            <h2 class="title" id="{{talk.title | slugify}}">{% if talk.special %}<span class="badge badge-{{talk.special}}">{{talk.special}}</span>{% endif %}
+              <a href="/sessions/{{talk.slug}}">{{ talk.title }}</a>
+            </h2>
+            <div class="wrap">
+              {% for spk in talk.speakers %}
+                {% assign speaker = site.data.speakers[spk] %}
+
+                  <div id="{{speaker.name | slugify }}" class="speaker">
+                    <div class="portrait">
+                      {% if speaker.thumbnailUrl %}
+                      <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" />
+                      {% else %}
+                      <img src="/assets/speakers/no-photo.jpg" />
+                      {% endif %}
+                    </div>
+                    <div class="desc">
+                      <h3 class="name">{{speaker.name}}</h3>
+                      {{speaker.desc | markdownify }}
+
+                      <ul class="links">
+                        {% for link in speaker.links %}
+                          <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+                {% endfor %}
+              <div class="abstract">
+                {{talk.desc | markdownify}}
+
+                {% if talk.room %}
+                  <div class="room">
+                    <b>📍 Location:</b>
+                    {% if talk.roomUrl %}
+                      <a href="{{talk.roomUrl}}">{{talk.room}}</a>
+                    {% else %}
+                      {{talk.room}}
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  </div>

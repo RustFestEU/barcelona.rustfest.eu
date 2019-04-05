@@ -1,0 +1,73 @@
+title: RustFest.eu
+email: team@rustfest.eu
+description: >
+  A Rust Community conference travelling all around Europe.
+
+baseurl: "" # the subpath of the site, e.g. /blog
+url: "https://www.rustfest.eu" # the base hostname & protocol for the site
+metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language"
+social:
+  twitter: rustfest
+  github: rustfesteu
+socialImageSrc: "/assets/favicons/logo.svg"
+
+location:
+  venue: "TBA"
+  second_venue : "TBA"
+  city: "Barcelona"
+  country: "Spain"
+
+dates:
+  year: "2019"
+  talks: "TBA"
+  workshops: "TBA"
+  impl_days: "TBA"
+  impl_days_no_br: "TBA"
+  short_form: "2019"
+
+event:
+  assets: "/assets/"
+
+
+# Page Settings
+owner: "asquera Event UG"
+
+collections:
+  sessions:
+    permalink: /:collection/:path
+    output: true
+  people:
+    permalink: /:collection/:path
+    output: true
+  sponsors:
+    permalink: /:collection/:path
+    # They have their own link.
+    output: false
+
+defaults:
+  - scope:
+      type: sessions
+    values:
+      layout: session
+  - scope:
+      type: people
+    values:
+      layout: person
+
+# mailinglist
+mailchimp:
+  server: asquera.us13.list-manage.com
+  user: 7945052bc1ecc432bff53c079
+  id: 5929ff51d6
+
+exclude:
+  - /vendor
+
+# Build settings
+markdown: kramdown
+
+permalink: /blog/:title
+
+# Plugins
+plugins:
+  - jekyll-redirect-from

@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="popout">
+    <section>
+      <header class="post-header">
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+
+        {% if page.author %} by <a href="/about/"><span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
+        </a>
+        {% endif %}
+        </p>
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        {% assign url = site.url | append: site.baseurl | append: post.url %}
+        {% include social_share.html url=url %}
+      </header>
+
+    </section>
+
+
+  </div>
+
+  <section class="post-content" itemprop="articleBody">
+    {{ content }}
+  </section>
+
+  {% if page.authors %}
+  <div class="popout">
+    <section class="authors">
+      <h3>Authors</h3>
+      <ul class="team">
+        {% for authorname in page.authors %}
+          {% assign member = site.data.team[authorname] %}
+          <li>
+            <img src="/assets/team/{{member.thumbnailUrl}}" />
+            <div class="info">
+              <span class="name">{{member.name}}</span>
+              {% include links.html links=member.links %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+  {% else %}
+
+    <hr style="width: 80%; margin: 2em auto;"/>
+
+  {% endif %}
+
+
+  <div class="whitewithwheel" id="newsletter">
+    <section>
+      <h2>Stay up to date</h2>
+      <form id="mailchimpForm" class="formInput"  action="https://{{site.mailchimp.server}}/subscribe/post" method="POST">
+        <p>
+          Join our mailing list to always receive the latest infos:
+        </p>
+        <input type="hidden" value="{{site.mailchimp.user}}" name="u" />
+        <input type="hidden" value="{{site.mailchimp.id}}" name="id" />
+        <div class="group">
+          <input type="text" id="js-email" name="EMAIL" required placeholder="your.email@example.org" />
+          <button type="submit">Sign up</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+
+
+</article>

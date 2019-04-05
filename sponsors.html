@@ -1,0 +1,140 @@
+---
+layout: default
+permalink: /sponsors/index.html
+title: Sponsoring
+---
+
+{% assign platinum_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "platinum" %}
+{% assign gold_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "gold" %}
+{% assign silver_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "silver" %}
+{% assign bronze_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "bronze" %}
+{% assign travel_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "travel" %}
+{% assign partners = site.sponsors | where: "group", "partner" %}
+{% assign venue = site.sponsors | where: "group", "venue" %}
+{% assign media = site.sponsors | where: "group", "media" %}
+
+{% comment %}
+<div class="popout sponsors">
+    <section>
+        <h1>Sponsors</h1>
+        <hr />
+        <p>RustFest wouldn't be possible without generous support of sponsors.</p>
+    </section>
+</div>
+{% endcomment %}
+
+
+<div class="popout sponsors">
+  <section>
+    <h1>Sponsors</h1>
+    <hr />
+    <p>
+      RustFest wouldn't be possible without the generous support of these fine folks:
+    </p>
+
+    {% if gold_sponsors[0] %}
+    <h2>Gold Sponsor{% if gold_sponsors[1] %}s{% endif %}</h2>
+    <ul class="gold">
+    {% for sponsor in gold_sponsors %}
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% if sponsor.desc %}
+      <li><p>{{sponsor.desc}}</p></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if silver_sponsors[0] %}
+    <h2>Silver Sponsor{% if silver_sponsors[1] %}s{% endif %}</h2>
+    <ul class="silver">
+    {% for sponsor in silver_sponsors %}
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% if sponsor.desc %}
+      <li><p>{{sponsor.desc}}</p></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if bronze_sponsors[0] %}
+    <h2>Bronze Sponsor{% if bronze_sponsors[1] %}s{% endif %}</h2>
+    <ul class="bronze">
+    {% for sponsor in bronze_sponsors %}
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% if sponsor.desc %}
+      <li><p>{{sponsor.desc}}</p></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if travel_sponsors[0] %}
+    <h2>Travel Sponsor{% if travel_sponsors[1] %}s{% endif %}</h2>
+    <ul class="travel">
+    {% for sponsor in travel_sponsors %}
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% if sponsor.desc %}
+      <li><p>{{sponsor.desc}}</p></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+
+{% if partners[0] %}
+  <section>
+    <h2>Partners</h2>
+    <hr />
+      <ul>
+        {% for sponsor in partners %}
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+          {% if sponsor.desc %}
+          <li><p>{{sponsor.desc}}</p></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </section>
+{% endif %}
+{% if media[0] %}
+  <section>
+    <h2>Media Partner</h2>
+    <hr />
+      <ul class="media">
+        {% for sponsor in media %}
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+          {% if sponsor.desc %}
+          <li><p>{{sponsor.desc}}</p></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </section>
+{% endif %}
+{% if venue[0] %}
+  <section>
+    <h2>Venues</h2>
+    <hr />
+      <ul>
+        {% for sponsor in venue %}
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+          {% if sponsor.desc %}
+          <li><p>{{sponsor.desc}}</p></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </section>
+{% endif %}
+</div>
+
+
+<section class="whitewithwheel">
+  <h2>Interested in sponsoring us?</h2>
+  <br />
+  <p>
+    <a class="button" href="mailto:sponsors@rustfest.eu">
+      Get in touch now
+    </a>
+    <a class="button" href="/sponsors/packages/">
+      Sponsor packages
+    </a>
+  </p>
+</section>

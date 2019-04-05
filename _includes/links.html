@@ -1,0 +1,10 @@
+<ul class="links">
+  {% for link in include.links %}
+    <li>
+      <a href="{{link.link}}" target="_blank" title="{{link.title}}">
+        {% assign icon_path = "icons/" | append: link.icon | append: ".svg" %}
+        {% include {{ icon_path }} %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

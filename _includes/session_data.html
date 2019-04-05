@@ -1,0 +1,58 @@
+{% assign talk = site.sessions | where_exp: "item", "item.id == page.id" | first %}
+
+{% if talk.public %}
+
+<div class="popout">
+  <section>
+      <h1>{% if talk.type == "workshop" %}Workshop: {% endif %}{{talk.title}}</h1>
+      <h2>by
+        {% for speaker in talk.speakers %}
+        {{ site.data.speakers[speaker].name }}
+        {% unless forloop.last %}and{% endunless %}
+        {% endfor %}</h2>
+      {% if page.room %}<h2>Room: {{page.room}}</h2>{% endif %}
+  </section>
+</div>
+
+<div>
+  <section>
+    <ul class="talks">
+      <li>
+        <div class="wrap">
+            {% for name in talk.speakers %}
+              {% assign speaker = site.data.speakers[name] %}
+
+              <div id="{{ speaker.name | slugify }}" class="speaker">
+                <div class="portrait">
+                  {% if speaker.thumbnailUrl %}
+                  <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" />
+                  {% else %}
+                  <img src="/assets/speakers/no-photo.jpg" />
+                  {% endif %}
+                </div>
+                <div class="desc">
+                  <h3 class="name">{{speaker.name}}</h3>
+                  {{speaker.desc | markdownify }}
+
+                  <ul class="links">
+                    {% for link in speaker.links %}
+                      <li><a href="{{link.link}}" target="_blank" title="{{link.title}}">{% include icons/{{link.icon}}.svg %}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {% endfor %}
+          <div class="abstract">
+            {{talk.desc | markdownify}}
+
+            {% if talk.video %}
+            <p><a href="{{talk.video}}">Watch the video</a></p>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+
+{% endif %}

@@ -1,0 +1,111 @@
+@import "base";
+
+@import
+  "components/navigation",
+  "components/social_share",
+  "components/hero",
+  "components/team",
+  "components/speakers",
+  "components/talks",
+  "components/schedule",
+  "components/home",
+  "components/sponsors",
+  "components/sponsor-packages",
+  "components/ml_form",
+  "components/blog",
+  "components/tickets",
+  "components/footer",
+  "components/embed"
+;
+
+.desc {
+  margin: 0.25em 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: $brand_light_yellow;
+}
+
+section ol {
+  margin: 1em 2em;
+  list-style-type: number;
+}
+
+// and other specifics
+.hero {
+  .itemgroup {
+    margin: 2em 0;
+    @include align-items(flex-start);
+    @include justify-content(flex-start);
+    flex-wrap: wrap;
+
+    >* {
+        min-width: 250px;
+        margin-right: 3em;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .highlight {
+    color: $brand_yellow;
+    font-style: bold;
+  }
+
+  .note {
+    font-size: 0.8em;
+    a, a:visited {
+      color: $brand_yellow;
+    }
+  }
+}
+
+.cfp-button {
+  margin: 2em 0;
+}
+
+.timeline {
+  font-size: 0.75em;
+  min-width: 15em;
+
+  @include wide-device {
+    margin: 0 2em 0 4em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-top: 1.5em;
+  }
+}
+
+iframe {
+  margin: 50px 0;
+}
+
+.videoplaylist {
+  text-align: center;
+  margin-bottom: 1.5em;
+
+  a.button.primary {
+    margin-top: 2em;
+
+    &:hover, &:active {
+      border-color: #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+  }
+}
+
+.backdrop section {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}

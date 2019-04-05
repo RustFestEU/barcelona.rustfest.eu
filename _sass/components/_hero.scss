@@ -1,0 +1,93 @@
+.hero {
+  @include linear-gradient(to bottom, transparentize($brand_blue, .3), $brand_purple);
+  color: white;
+  position: relative;
+  padding: {
+    top: 2em;
+    bottom: 0;
+  };
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/backdrops/hero.jpg);
+    background-size: cover;
+  }
+
+  h1 {
+    @include wide-device {
+      margin-top: 2em;
+    }
+  }
+
+  .itemgroup {
+    margin: 1em 0;
+
+    div {
+      margin: 1em 3em 0 0;
+      min-width: 300px;
+    }
+
+    div:nth-child(2n) {
+      flex-basis: 50%;
+    }
+  }
+}
+
+.disclaimer {
+  font-size: 0.8em;
+  font-style: italic;
+  padding-top: 3em;
+  color: white;
+  a, a:visited {
+    color: $brand_yellow;
+  }
+}
+
+.popout {
+  background-color: $brand_purple;
+  color: white;
+  padding: {
+    top: 2em;
+    bottom: 5em;
+  };
+
+  hr  {
+    margin-top: 0;
+    border-width: 2px;
+    border-color: $brand_dark_blue;
+  }
+
+  a, a:visited {
+    color: $brand_yellow;
+  }
+
+  .highlight {
+    color: $brand_yellow;
+    font-weight: bold;
+  }
+}
+
+.backdrop .popout {
+  background-color: transparentize($brand_purple, 0.5);
+}
+
+
+.img-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+}

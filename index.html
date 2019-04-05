@@ -1,0 +1,73 @@
+---
+layout: default
+bodytags: with-hero
+---
+<div class="hero">
+  <section>
+    <h1>RustFest {{site.location.city}} {{site.dates.year}}</h1>
+    <p>Let's meet again at a conference dedicated to the Rust programming language</p>
+
+    <div class="itemgroup">
+      <div>
+        <p class="desc">Talks</p>
+        <p>
+          {{site.dates.talks}}<br>
+        </p>
+        <p class="note">
+          <a href="/talks">Talks</a>
+        </p>
+      </div>
+
+      <div>
+        <p class="desc">Workshops</p>
+        <p>
+          {{site.dates.workshops}}<br />
+        </p>
+        <p class="note">
+          <a href="/workshops">Workshops</a>
+        </p>
+      </div>
+    </div>
+
+  </section>
+</div>
+
+{% assign platinum_sponsors = site.sponsors | where: "level", "platinum" %}
+{% assign gold_sponsors = site.sponsors | where: "level", "gold" %}
+{% assign silver_sponsors = site.sponsors | where: "level", "silver" %}
+
+
+<div id="news">
+  <section>
+    <h2 class="headline">Latest news <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">{% include icons/rss-square.svg %}</a></h2>
+    <div class="post">
+    </div>
+    <div style="text-align: right">
+      <a href="https://blog.rustfest.eu/">» more news</a>
+    </div>
+  </section>
+</div>
+
+<div id="newsletter">
+  <section>
+    <h2>Stay up to date</h2>
+    <form id="mailchimpForm" class="formInput"  action="https://{{site.mailchimp.server}}/subscribe/post" method="POST">
+      <p>
+        Join our mailing list to always receive the latest infos:
+      </p>
+      <input type="hidden" value="{{site.mailchimp.user}}" name="u" />
+      <input type="hidden" value="{{site.mailchimp.id}}" name="id" />
+      <div class="group">
+        <input type="email" id="js-email" name="EMAIL" required placeholder="your.email@example.org" />
+        <button type="submit">Sign up</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="twitter">
+    <h2>Follow us on twitter</h2>
+    <a class="inline" href="https://www.twitter.com/{{site.social.twitter}}" >
+      {% include icons/twitter.svg %} @{{site.social.twitter}}
+    </a>
+  </section>
+</div>

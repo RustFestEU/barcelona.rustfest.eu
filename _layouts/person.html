@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+
+<h2>An {{ page.groups | array_to_sentence_string }}.</h2>
+
+{% include links.html links=page.links %}
+
+{{ content }}

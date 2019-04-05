@@ -1,0 +1,13 @@
+<footer>
+  <section>
+    <span>{{ site.location.city }}, {{ site.location.country }} - {{ site.dates.short_form }}</span>
+    <span class="copyright">&copy; 2016-{{ site.dates.year }}, <a href="/imprint/">{{site.owner}}</a></span>
+    <ul class="footer-links">
+      {% for item in site.data.footer_menu %}
+        <li>
+          <a href="{{item.link}}">{{item.title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</footer>

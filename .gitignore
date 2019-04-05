@@ -1,0 +1,5 @@
+_site
+Gemfile.lock
+*.kate-swp
+vendor
+.bundle

@@ -1,0 +1,69 @@
+#sponsors {
+  @include linear-gradient(to right, $brand_purple, $brand_blue);
+}
+.sponsors {
+  color: white;
+  margin: 0;
+  font-size: 0.9em;
+
+  padding: {
+    top: 0;
+    bottom: 2em;
+  };
+  img {
+    max-height: 25vh;
+    max-width: 25vw;
+  }
+  ul {
+    list-style: none;
+
+    @include display(flex);
+    @include align-items(center);
+    @include flex-direction(row);
+    @include justify-content(space-around);
+    @include flex-wrap(wrap);
+
+    &.gold {
+      img {
+        max-height: 25vw;
+        max-width: 25vw;
+      }
+    }
+    &.silver {
+      img {
+        max-height: 20vw;
+        max-width: 20vw;
+      }
+    }
+    &.bronze {
+      img {
+        max-height: 15vh;
+        max-width: 15vw;
+      }
+    }
+    &.travel {
+      img {
+        max-height: 15vh;
+        max-width: 15vw;
+      }
+    }
+    &.media {
+      img {
+        max-height: 15vh;
+        max-width: 15vw;
+      }
+    }
+    > li {
+      margin: 1em;
+    }
+  }
+
+  .button {
+    margin: 2.5em 1.5em 0 0;
+
+    &:hover {
+      background: transparent;
+      border-color: #fff;
+    }
+  }
+}

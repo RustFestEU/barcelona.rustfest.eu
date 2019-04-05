@@ -1,0 +1,7 @@
+<div id="{{include.person.slug}}" class="card person">
+  <img src="/assets/people/{{include.person.slug}}.{% if include.person.jpg %}jpg{% else %}png{% endif %}" />
+  <div class="info">
+    <a href="{{include.person.url}}"><span class="name">{{include.person.name}}</span></a>
+    {% include links.html links=include.person.links %}
+  </div>
+</div>

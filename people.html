@@ -1,0 +1,22 @@
+---
+title: People
+layout: default
+permalink: /people/index.html
+---
+
+{% for group in site.data.groups %}
+  {% assign people = site.people | where_exp: "person", "person.groups contains group" %}
+  {% assign size = people | size %}
+  {% if size > 0 %}
+    <section>
+      <h1>{{ group | capitalize }}s</h1>
+      <ul>
+        {% for person in people %}
+          <li>
+            {% include cards/person.html person=person %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endfor %}
