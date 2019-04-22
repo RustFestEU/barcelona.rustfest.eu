@@ -42,7 +42,7 @@ Barcelona is locataed in the northeasts of Spain and reachable by air, train, bu
 
 ### By Plane
 
-You can reach Barcelona by plane and arrive at [Barcelona El Prat Josep Tarradellas Airport](https://www.aeropuertobarcelona-elprat.com/ingl/index.html), located just 12 km southwest of Barcelona
+You can reach Barcelona by plane and arrive at [Barcelona El Prat Josep Tarradellas Airport](https://www.aeropuertobarcelona-elprat.com/ingl/index.html), located just 12 km southwest of Barcelona.
 You can reach the city by train or Metro quickly.
 
 ### By Train
