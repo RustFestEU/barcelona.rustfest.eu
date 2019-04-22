@@ -38,7 +38,7 @@ multi-faceted character.
 
 ## Travelling to Barcelona
 
-Barcelona is locataed in the northeasts of Spain and reachable by air, train, bus or even by the sea.
+Barcelona is located in the northeast of Spain and reachable by air, train, bus or even by the sea.
 
 ### By Plane
 
