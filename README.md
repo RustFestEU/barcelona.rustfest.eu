@@ -1,4 +1,4 @@
-# Rustfest.eu
+# RustFest.eu
 
 This website is a `jekyll` site. You're welcome to fork and use this for your conference. We've tried to make it reasonably generic.
 
