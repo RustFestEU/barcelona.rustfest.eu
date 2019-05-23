@@ -8,7 +8,7 @@ links:
   - icon: github
     link: https://github.com/RafaelaWetzel
 jpg: true
-priority: 99
+priority: 80
 ---
 
 RustFest organiser

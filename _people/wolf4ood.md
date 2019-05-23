@@ -8,7 +8,7 @@ links:
     link: https://twitter.com/wolf4ood
   - icon: github
     link: https://github.com/wolf4ood
-priority: 0
+priority: 99
 ---
 
 RustFest Rome local organiser.
