@@ -8,7 +8,7 @@ links:
     link: https://twitter.com/tglman
   - icon: github
     link: https://github.com/tglman
-priority: 0
+priority: 99
 ---
 
 RustFest Rome local organiser.
