@@ -11,6 +11,7 @@ links:
     link: https://www.linkedin.com/in/robertohuertas/
   - icon: website
     link: https://robertohuertas.com/
+jpg: true
 priority: 10
 ---
 
