@@ -1,7 +1,7 @@
 ---
 name: Sebastian Wicki
 groups:
-  - organizer
+  - organizer_
 links:
   - icon: twitter
     link: https://twitter.com/gandro23
