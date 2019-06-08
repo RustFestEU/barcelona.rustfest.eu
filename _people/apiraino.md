@@ -1,7 +1,7 @@
 ---
 name: Antonio Piraino
 groups:
-  - organizer
+  - organizer_
 links:
   - icon: github
     link: https://github.com/apiraino
