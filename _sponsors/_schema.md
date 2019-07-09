@@ -5,8 +5,6 @@
 name: "Example LLC"
 # Whatever link they ask for.
 link: "https://example.com"
-# If they show on the frontpage.
-featured: false
 # One of:
 #   - sponsor
 #   - partner
