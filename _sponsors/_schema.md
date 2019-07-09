@@ -12,6 +12,7 @@ link: "https://example.com"
 #   - media
 group: sponsor
 # One of:
+#   - platinum
 #   - gold
 #   - silver
 #   - bronze
@@ -21,4 +22,4 @@ level: travel
 png: false
 ---
 
-<!-- Their description. -->
+<!-- For platinum only: Their description. -->
