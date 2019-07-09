@@ -4,7 +4,7 @@
 # The full name of the sponsor.
 name: "Example LLC"
 # Whatever link they ask for.
-link: "http://example.com"
+link: "https://example.com"
 # If they show on the frontpage.
 featured: false
 # One of:
