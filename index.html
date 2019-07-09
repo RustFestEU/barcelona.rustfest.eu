@@ -28,17 +28,6 @@ bodytags: with-hero
         </p>
       </div>
 
-      <div>
-        <p class="desc">Become a sponsor</p>
-        <p>
-          <a class="button primary" href="/sponsors/packages">
-            Sponsor packages
-          </a>
-          <a class="button primary" href="mailto:sponsors@rustfest.eu">
-            Get in touch now
-          </a>
-        </p>
-      </div>
     </div>
 
   </section>
@@ -47,6 +36,55 @@ bodytags: with-hero
 {% assign platinum_sponsors = site.sponsors | where: "level", "platinum" %}
 {% assign gold_sponsors = site.sponsors | where: "level", "gold" %}
 {% assign silver_sponsors = site.sponsors | where: "level", "silver" %}
+
+<div class='popout sponsors'>
+  <section>
+    <h1>Sponsors</h1>
+    <div>
+      <p class="desc">Become a sponsor</p>
+      <p>
+        <a class="button primary" href="/sponsors/packages">
+          Sponsor packages
+        </a>
+        <a class="button primary" href="mailto:sponsors@rustfest.eu">
+          Get in touch now
+        </a>
+      </p>
+    </div>
+
+    {% if platinum_sponsors[0] %}
+    <h2>Platinum Sponsor{% if platinum_sponsors[1] %}s{% endif %}</h2>
+    <ul>
+      {% for sponsor in platinum_sponsors %}
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if gold_sponsors[0] %}
+    <h2>Gold Sponsor{% if gold_sponsors[1] %}s{% endif %}</h2>
+    <ul class="gold">
+      {% for sponsor in gold_sponsors %}
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if silver_sponsors[0] %}
+    <h2>Silver Sponsor{% if silver_sponsors[1] %}s{% endif %}</h2>
+    <ul class="silver">
+      {% for sponsor in silver_sponsors %}
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <div style="text-align: right">
+      <a class="button primary" href="/sponsors/">
+        See all our sponsors
+      </a>
+    </div>
+  </section>
+</div>
 
 
 <div id="news">

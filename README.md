@@ -70,9 +70,9 @@ The final PR should include:
 
 # Useful Snippets
 
-* Get a particular item from a collection (In this example, `sponsors` who are `featured: true`):
+* Get a particular item from a collection (In this example, `sponsors` who are `level: gold`):
   ```ruby
-  {{ site.sponsors | where: "featured", true }}
+  {{ site.sponsors | where: "level", "gold" }}
   ```
 * Bind a value:
   ```ruby
