@@ -44,6 +44,8 @@ You can either ask them the details from `_sponsors/_schema.md` and fill it out 
 
 Ask them for an SVG version of their logo.
 
+Reduce the size of the SVG with a project like [svgcleaner](https://crates.io/crates/svgcleaner) and make sure that the browser does not collapse the image into a 0x0 pixel one.
+
 The final PR should incude:
 
 * `_sponsors/company.md`
