@@ -12,18 +12,16 @@ social:
 socialImageSrc: "/assets/favicons/logo.svg"
 
 location:
-  venue: "TBA"
-  second_venue : "TBA"
+  venue: "UPC"
   city: "Barcelona"
   country: "Spain"
 
 dates:
   year: "2019"
-  talks: "TBA"
-  workshops: "TBA"
-  impl_days: "TBA"
-  impl_days_no_br: "TBA"
-  short_form: "2019"
+  talks: "09.-10. November"
+  impl_days: "11.-12. November"
+  impl_days_no_br: "11.-12.11."
+  short_form: "09.-12.11.2019"
 
 event:
   assets: "/assets/"

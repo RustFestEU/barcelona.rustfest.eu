@@ -9,22 +9,40 @@ bodytags: with-hero
 
     <div class="itemgroup">
       <div>
-        <p class="desc">Talks</p>
+        <p class="desc">Talks &amp; Workshops</p>
         <p>
-          {{site.dates.talks}}<br>
+          {{site.dates.talks}} {{site.dates.year}}
         </p>
         <p class="note">
-          <a href="/talks">Talks</a>
+          <a href="/schedule">Schedule</a>
         </p>
       </div>
 
       <div>
-        <p class="desc">Workshops</p>
+        <p class="desc">impl Days</p>
         <p>
-          {{site.dates.workshops}}<br />
+          {{site.dates.impl_days}} {{site.dates.year}}
         </p>
         <p class="note">
-          <a href="/workshops">Workshops</a>
+          <a href="/about_impl_days">What are the <code class="highlighter-rouge">impl Days</code>?</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="itemgroup">
+      <div class="location">
+        <p class="desc">Talk &amp; Workshop Location</p>
+        <p>
+          <address title="Address">
+            <a href="/location/">{{site.location.venue}}</a><br />
+            {{site.location.city}}, {{site.location.country}}<br/>
+          </address>
+        </p>
+      </div>
+      <div class="location">
+        <p class="desc">impl Days Location</p>
+        <p>
+          TBA
         </p>
       </div>
 
