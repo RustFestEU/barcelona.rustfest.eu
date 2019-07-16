@@ -22,7 +22,7 @@ Rustfest 2019 will start on **November 9th (Saturday)** and will end on **Novemb
 
 As usual, this edition will have two first days full of talks and workshops and two additional days (aka Impl Days) where you will be able to get together with other rustaceans, meet in smaller groups and work on your own community projects.
 
-### Mixing things a little bit
+### Mixing things up a little bit
 
 Although we are keeping the same length in terms of days we have decided to change things a little bit and try something different.
 
