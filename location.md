@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "RustFest"
+title: "RustFest - Location"
 permalink: /location/
 ---
 
