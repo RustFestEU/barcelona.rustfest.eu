@@ -62,7 +62,14 @@ For more information, check out Wikivoyage on [Travelling around the Schengen Ar
 
 ## Venue
 
-More info to come soon!
+Rustfest Barcelona 2019 is going to be held in the [Vèrtex building at Campus Nord](https://www.upc.edu/campusnord/ca/espais/auditori)
+belonging to [UPC - Universitat Politècnica de Catalunya](https://www.upc.edu/en).
+
+![Vèrtex Auditorium](/assets/barcelona-vx_auditori.jpg)
+
+We'll be using the two level **Vèrtex auditorium** with capacity for over 400 people which we think will make a great venue for the amazing talks we'll be hosting this year.
+
+The workshops and the **Impl Days** will take place in some of the [university's classrooms](https://www.upc.edu/campusnord/ca/espais/aules-vertex) which are fully equiped to host workshops of almost any kind.
 
 </section>
 
