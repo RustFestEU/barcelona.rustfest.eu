@@ -10,4 +10,5 @@ links:
   - icon: website
     link: https://fnordig.de/
 priority: 80
+jpg: true
 ---
