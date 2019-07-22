@@ -1,7 +1,7 @@
 ---
 name: "Santiago Pastorino"
 groups:
-  - committee
+  - none
 links:
   - icon: twitter
     link: https://twitter.com/spastorino
