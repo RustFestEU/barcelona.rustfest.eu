@@ -3,7 +3,6 @@ name: Guillaume Gomez
 jpg: true
 groups:
   - organizer
-  - committee
 links:
   - icon: github
     link: https://github.com/GuillaumeGomez
