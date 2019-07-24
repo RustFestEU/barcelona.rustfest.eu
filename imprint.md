@@ -9,10 +9,10 @@ title: Imprint
 
 <p>
 <address>
-<h2>asquera Event UG (haftungsbeschränkt)</h2>
-Ohlauer Straße 43 <br>
-10999 Berlin<br>
-HRB 179436
+<h2>Associació Decentral (limited)</h2>
+Carrer Reina Cristina, 11 <br>
+43750 - Barcelona<br>
+VAT: G-67442293
 </address>
 </p>
 
