@@ -40,18 +40,21 @@ multi-faceted character.
 
 Barcelona is located in the northeast of Spain and reachable by air, train, bus or even by the sea.
 
-### By Plane
-
-You can reach Barcelona by plane and arrive at [Barcelona El Prat Josep Tarradellas Airport](https://www.aeropuertobarcelona-elprat.com/ingl/index.html), located just 12 km southwest of Barcelona.
-You can reach the city by train or Metro quickly.
-
 ### By Train
 
 Barcelona can be reached by high-speed or overnight trains from French and Spanish cities.
 It's main station is called Barcelona Sants Station.
 Other regional and long-distance trains arrive and leave at França Station.
 
+For most European citizens the [Interrail (currently 10% off)](https://www.interrail.eu/en/autumn-sale/global-pass) is probably the most flexible and affordable ticket.
+For [Non-EWR citizens](https://www.interrail.eu/en/help/ordering-pass/do-i-need-interrail-or-eurail-pass) there is [Eurail](https://www.eurail.com/en/eurail-passes/global-pass).
+
 **More details to come**
+
+### By Plane
+
+You can reach Barcelona by plane and arrive at [Barcelona El Prat Josep Tarradellas Airport](https://www.aeropuertobarcelona-elprat.com/ingl/index.html), located just 12 km southwest of Barcelona.
+You can reach the city by train or Metro quickly.
 
 ## Entry requirements
 
