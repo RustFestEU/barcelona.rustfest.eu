@@ -7,7 +7,7 @@ title: Diversidad en RustFest
 RustFest es una de las conferencias más grandes sobre Rust y se toma en serio la misión de Rust de mantener una comunidad inclusiva. 
 Ésta se basa en cuatro fundamentos.
 
-## Presupuesto priorizado en la gente
+## Presupuestamos teniendo en cuenta a las personas
 
 RustFest tiene el objetivo de ofrecer entradas a bajo coste, mientras mantiene una conferencia de calidad. Es la conferencia de Rust más asequible y antigua, con entradas de precio fijo alrededor de 100 Euros y entradas a precio rebajado. El precio de la entrada esta centrado en un único principio: Si RustFest no tuviese patrocinadores, incluso se celebraría.
 
