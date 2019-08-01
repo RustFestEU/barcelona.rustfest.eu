@@ -33,7 +33,7 @@ Siempre aseguramos que los servicios de comida escogidos puedan servir comida ap
 
 Las solicitudes se gestionan diligentemente y, hasta ahora, solo hemos tenido una petición que no pudimos satisfacer.
 
-Por favor, ten en cuenta que debido a que RustFest es una conferencia que se realiza cada vez en una distinta zona geográfica, solo podemos contratar servicios de comida una vez, lo cual puede siempre varia de una edición a otra.
+Por favor, ten en cuenta que debido a que RustFest es una conferencia que se realiza cada vez en una zona geográfica distinta, solo podemos trabajar con un servicio de comida una vez, lo cual puede siempre introducir variaciones de una edición a otra.
 
 ## Ningún presupuesto destinado a alcohol
 
