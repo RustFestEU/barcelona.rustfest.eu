@@ -39,7 +39,7 @@ Por favor, ten en cuenta que debido a que RustFest es una conferencia que se rea
 
 RustFest tiene una estricta regla, no se sirve alcohol gratuitamente. Esto incluye rechazar ofertas de ciertos patrocinadores. Hemos encontrado en previas conferencias que ofrecer alcohol gratuito contribuye a una cultura de festividad agresiva porque la gente bebería gratuitamente y entonces compraría más.
 
-Por favor ten en cuenta que los alrededores de algunos centros de conferencia es posible que tengan alcohol, pero verificamos que siempre hay disponible buenas y económicas opciones no alcohólicas y bastante espacio para evitar encontrarse gente embriagada. 
+Ten en cuenta que en los alrededores de algunos centros de la conferencia es posible encontrar alcohol a la venta, pero siempre verificamos que hay disponibles opciones no alcohólicas de calidad y económicas y bastante espacio para evitar encontrarse gente embriagada. 
 
 ## Sin debates
 
