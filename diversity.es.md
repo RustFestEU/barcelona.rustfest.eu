@@ -31,7 +31,7 @@ RustFest reconoce que la discapacidad es diversa y trabajará directamente conti
 
 Siempre aseguramos que los servicios de comida escogidos puedan servir comida apropiada para vegetarianos y veganos y también comida especial bajo demanda. También intentamos que pueda servirse comida para gente con otras necesidades dietéticas. Si es posible, buscamos servicios de comida que puedan satisfacer todas estas opciones porque hemos visto que es la manera más fácil de ofrecer comida de calidad a gran escala para todo el mundo.
 
-Las solicitudes están gestionadas rápidamente y hasta ahora solo hemos tenido una solicitud que no pudimos satisfacer.
+Las solicitudes se gestionan diligentemente y, hasta ahora, solo hemos tenido una petición que no pudimos satisfacer.
 
 Por favor, ten en cuenta que debido a que RustFest es una conferencia que se realiza cada vez en una distinta zona geográfica, solo podemos contratar servicios de comida una vez, lo cual puede siempre varia de una edición a otra.
 
