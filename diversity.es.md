@@ -9,7 +9,7 @@ RustFest es una de las conferencias más grandes sobre Rust y se toma en serio l
 
 ## Presupuestamos teniendo en cuenta a las personas
 
-RustFest tiene el objetivo de ofrecer entradas a bajo coste, mientras mantiene una conferencia de calidad. Es la conferencia de Rust más asequible y antigua, con entradas de precio fijo alrededor de 100 Euros y entradas a precio rebajado. El precio de la entrada esta centrado en un único principio: Si RustFest no tuviese patrocinadores, incluso se celebraría.
+RustFest tiene el objetivo de ofrecer entradas a bajo coste, mientras mantiene una conferencia de calidad. Es la conferencia sobre Rust más asequible y veterana, con entradas a precio fijo alrededor de 100 Euros y entradas a precio rebajado. El precio de la entrada está centrado en un único principio: aunque RustFest no tuviese patrocinadores, se celebraría.
 
 Aunque no siempre esta garantizado, históricamente, pagamos todos los gastos a nuestros conferenciantes y organizadores para atender a la última RustFests. Siempre pagamos todos los gastos a la gente que por otra parte no pueden permitírselo.
 
