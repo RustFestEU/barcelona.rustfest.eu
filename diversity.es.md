@@ -53,4 +53,4 @@ Confiamos en ti y hasta ahora hemos tenido una formidable experiencia actuando d
 
 La comunidad de Rust es joven y RustFest es un proyecto joven. Estamos contentos de recibir cualquier sugerencia sobre (éste y previas) RustFest en cualquier momento. Por favor, contacta con nosotros por este motivo a través de [team@rustfest.eu](mailto:team@rustfest.eu).
 
-Si tu ves algo en lo que podemos mejorar, por favor ¡haznos lo saber! Nos ocuparemos de ello. Sí sucede que es algo en lo que te gustaría trabajar, por favor no dudes en contactar con nosotros para hacernos saber que quieres formar parte del equipo. Apreciamos que las soluciones no siempre son gratuitas y que siempre intentaremos dedicar esfuerzos como parte del presupuesto para tu tarea.
+Si ves algo en lo que podemos mejorar, ¡haznoslo saber, por favor! Nos ocuparemos de ello. Sí resulta que es algo en lo que te gustaría colaborar, por favor no dudes en contactar con nosotros para hacernos saber que quieres formar parte del equipo. Sabemos que las soluciones no son siempre gratuitas y, por tanto, intentaremos dedicar esfuerzos y parte del presupuesto, en la medida de lo posible, a tu tarea.
