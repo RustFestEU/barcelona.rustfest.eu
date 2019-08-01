@@ -45,7 +45,7 @@ Ten en cuenta que en los alrededores de algunos centros de la conferencia es pos
 
 Tenemos procesos para gestionar muchas cosas que son pequeños problemas para nosotros, pero grandes para ti.
 
-No preguntamos por ningún tipo de prueba y siempre asumimos que nos contactaras con buena intención. RustFest está aquí para que pases un buen rato y si tu tienes algún tipo de necesidad, te ayudaremos de la mejor manera que podamos.
+No exigimos ningún tipo de prueba y siempre asumimos que tus peticiones son de buena fe. RustFest está aquí para que pases un buen rato y si tú tienes algún tipo de necesidad, te ayudaremos de la mejor manera que podamos.
 
 Confiamos en ti y hasta ahora hemos tenido una formidable experiencia actuando de esta manera.
 
