@@ -43,7 +43,7 @@ Ten en cuenta que en los alrededores de algunos centros de la conferencia es pos
 
 ## Sin debates
 
-Tenemos procesos para gestionar con muchas cosas que son un pequeño problema para nosotros, pero son grandes para ti.
+Tenemos procesos para gestionar muchas cosas que son pequeños problemas para nosotros, pero grandes para ti.
 
 No preguntamos por ningún tipo de prueba y siempre asumimos que nos contactaras con buena intención. RustFest está aquí para que pases un buen rato y si tu tienes algún tipo de necesidad, te ayudaremos de la mejor manera que podamos.
 
