@@ -17,7 +17,7 @@ El excedente de los presupuestos son a menudo invertidos en la comunidad o guard
 
 ## Esfuerzos en diversidad por encima de la media
 
-La última RustFest ha tenido una considerable cantidad de entradas de diversidad (5%). En contraste con otras muchas otras conferencias, hemos empezado a pagar por todos los gastos de viaje y alojamiento por el primer conjunto de entradas. Esto incluye viajes transcontinentales. Bajo demanda, hemos anticipado el pago de los gastos del viaje a los poseedores de entadas de diversidad.
+Las últimas ediciones del RustFest ha tenido una considerable cantidad de entradas de diversidad (5%). En contraposición a otras muchas otras conferencias, hemos empezado a pagar todos los gastos de viaje y alojamiento para el primer conjunto de entradas. Esto incluye viajes transcontinentales. Por otro lado, bajo demanda, pagamos por anticipado los gastos del viaje a los poseedores de entradas de diversidad.
 
 Es importante para nosotros que los poseedores de entadas de diversidad no tengan ningún problema en atender. Por una conferencia de nuestro rango de precio, los viajes son a menudo más prohibitivo que las entradas.
 
