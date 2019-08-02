@@ -4,6 +4,8 @@ permalink: /diversity/es
 title: Diversidad en RustFest
 ---
 
+[English version](https://barcelona.rustfest.eu/diversity)
+
 RustFest es una de las conferencias más grandes sobre Rust y se toma en serio la misión de Rust de mantener una comunidad inclusiva. 
 Ésta se basa en cuatro principios.
 
@@ -19,7 +21,7 @@ El excedente económico, si hubiere, es a menudo invertido en la comunidad o gua
 
 Las últimas ediciones del RustFest han tenido una considerable cantidad de entradas de diversidad (5%). En contraposición a otras conferencias, hemos pagado todos los gastos de viaje y alojamiento para el primer conjunto de entradas. Esto incluye viajes transcontinentales. Por otro lado, de ser necesario, pagamos por anticipado los gastos del viaje a los poseedores de entradas de diversidad.
 
-Es importante para nosotros que los poseedores de entadas de diversidad no tengan ningún problema en atender. Por una conferencia de nuestro rango de precio, los viajes son a menudo más prohibitivo que las entradas.
+Es importante para nosotros que los poseedores de entradas de diversidad no tengan ningún problema para poder asistir. Para una conferencia de nuestro rango de precio, el precio del viaje es, a menudo, más prohibitivo que el de las entradas.
 
 ## Diversidad incluye discapacidad
 
