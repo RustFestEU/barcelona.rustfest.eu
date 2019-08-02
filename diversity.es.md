@@ -21,7 +21,7 @@ El excedente económico, si hubiere, es a menudo invertido en la comunidad o gua
 
 Las últimas ediciones del RustFest han tenido una considerable cantidad de entradas de diversidad (5%). En contraposición a otras conferencias, hemos pagado todos los gastos de viaje y alojamiento para el primer conjunto de entradas. Esto incluye viajes transcontinentales. Por otro lado, de ser necesario, pagamos por anticipado los gastos del viaje a los poseedores de entradas de diversidad.
 
-Es importante para nosotros que los poseedores de entradas de diversidad no tengan ningún problema para poder asistir. Para una conferencia de nuestro rango de precio, el precio del viaje es, a menudo, más prohibitivo que el de las entradas.
+Para nosotros, es muy importante que los poseedores de las entradas de diversidad no tengan ningún problema para poder asistir. Para una conferencia de nuestro rango de precio, el precio del viaje es, a menudo, más prohibitivo que el de las entradas.
 
 ## Diversidad incluye discapacidad
 
