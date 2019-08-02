@@ -13,7 +13,7 @@ RustFest tiene el objetivo de ofrecer entradas a bajo coste, mientras mantiene u
 
 Aunque no siempre está garantizado, históricamente, hemos sufragado siempre todos los gastos a nuestros ponentes y organizadores para hacer posible su asistencia al RustFest. En todo caso, siempre pagamos todos los gastos a la gente que no puede permitírselo.
 
-El excedente de los presupuestos son a menudo invertidos en la comunidad o guardados para la siguiente edición.
+El excedente económico, si hubiere, es a menudo invertido en la comunidad o guardados para la siguiente edición.
 
 ## Esfuerzos en diversidad por encima de la media
 
