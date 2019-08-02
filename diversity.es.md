@@ -27,7 +27,7 @@ Para nosotros, es muy importante que éstos no tengan ningún problema para pode
 
 Cuando hablamos de esfuerzo en diversidad de las TI, la discapacidad es a menudo olvidada, por lo que creemos que esto ha de cambiar. RustFest ha tenido siempre una [declaración de accesibilidad](/accessibility/) con la documentación adecuada  por adelantado. Nuestros esfuerzos están asesorados e implementados por personas discapacitadas. RustFest siempre dispone de una persona responsable de velar por la accesibilidad.
 
-RustFest reconoce que la discapacidad es diversidad y trabajará directamente contigo para solucionar todas tus necesidades. Junto a tí, trabajaremos activamente para resolver cualquier asunto.
+RustFest reconoce que la discapacidad es diversidad y trabajará directamente contigo para solucionar todas tus necesidades. Junto a ti, trabajaremos activamente para resolver cualquier asunto.
 
 ## Comida y opciones de servicios de comida
 
