@@ -5,7 +5,7 @@ title: Diversidad en RustFest
 ---
 
 RustFest es una de las conferencias más grandes sobre Rust y se toma en serio la misión de Rust de mantener una comunidad inclusiva. 
-Ésta se basa en cuatro fundamentos.
+Ésta se basa en cuatro principios.
 
 ## Presupuestamos teniendo en cuenta a las personas
 
