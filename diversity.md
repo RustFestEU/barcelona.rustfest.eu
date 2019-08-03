@@ -4,7 +4,7 @@ permalink: /diversity/
 title: Diversity at RustFest
 ---
 
-[Ver en español](https://barcelona.rustfest.eu/diversity/es)
+[Ver en español](/diversity/es/)
 
 RustFest is one of the biggest Rust conferences and takes Rust's mission for an inclusive community seriously. This is based on multiple pillars.
 
