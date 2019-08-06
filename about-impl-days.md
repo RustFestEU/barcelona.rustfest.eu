@@ -33,7 +33,7 @@ natural choice. <a href="https://internals.rust-lang.org/t/the-impl-period-newsl
 Plus, <a href="https://botbot.me/mozilla/rust-internals/2017-10-02/?msg=91818378&page=2">they got to build a Lego Death
 Star</a>.
 
-The Zurich "impl Days" were such a success that we decided to repeat the event in Paris and it was an even <a
+The Zurich "impl Days" were such a success that we decided to repeat the event in Paris and Rome where it was an even <a
 href="https://twitter.com/MozillaParis/status/1001434063264272384" target="_blank">bigger success</a> (also, <a
 href="https://twitter.com/simukis/status/1001122476011802626" target="_blank">a rocket</a>).
 
