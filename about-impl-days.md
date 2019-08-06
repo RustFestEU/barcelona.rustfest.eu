@@ -4,13 +4,7 @@ title: "What are the `impl Days`"
 permalink: /about_impl_days/
 ---
 
-<div class="backdrop" style="background: url(/assets/barcelona-day.jpg) 50% 40%; background-repeat:no-repeat; padding: 0; margin-bottom: 1em;" >
-  <div class="popout">
-    <section>
-      <h1>impl Days</h1>
-    </section>
-  </div>
-</div>
+{% include header_backdrop.html title="impl Days" %}
 
 <section markdown="1">
 
