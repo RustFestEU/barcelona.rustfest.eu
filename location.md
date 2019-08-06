@@ -4,7 +4,7 @@ title: "RustFest - Location"
 permalink: /location/
 ---
 
-<div class="backdrop" style="background: url(/assets/barcelona-day.jpg) 50% 40%; background-repeat:no-repeat; padding: 0; margin-bottom: 1em;" >
+<div class="backdrop" style="background: url(/assets/barcelona-day.jpg) 50% 40%; background-repeat:no-repeat; background-size: cover; padding: 0; margin-bottom: 1em;" >
   <div class="popout">
     <section>
       <h1>Welcome to {{site.location.city}}</h1>
