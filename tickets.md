@@ -4,14 +4,7 @@ title: "RustFest - Tickets"
 permalink: /tickets/
 ---
 
-<div class="backdrop" style="background: url(/assets/barcelona-day.jpg) 50% 40%; background-repeat:no-repeat; padding: 0; margin-bottom: 1em;" >
-  <div class="popout">
-    <section>
-      <h1>Ticket Information</h1>
-    </section>
-
-  </div>
-</div>
+{% include header_backdrop.html title="Ticket Information" %}
 
 <section markdown="1">
 

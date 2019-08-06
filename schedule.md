@@ -4,15 +4,8 @@ permalink: /schedule/
 title: Schedule
 ---
 
-<div class="backdrop" style="background: url(/assets/barcelona-day.jpg) 50% 40%; background-repeat:no-repeat; padding: 0; margin-bottom: 1em;" >
-  <div class="popout">
-    <section>
-      <h1>{{site.location.city}} Schedule {% include icons/calendar.svg %}</h1>
-      <p>We are very pleased to host the sixth edition of RustFest in Barcelona, Spain.</p>
-    </section>
-
-  </div>
-</div>
+{% capture title %}{{site.location.city}} Schedule {% include icons/calendar.svg %}{% endcapture %}
+{% include header_backdrop.html title=title %}
 
 <section markdown="1">
 

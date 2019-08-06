@@ -25,6 +25,7 @@ $brand_green: #09D4B0;
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
   text-rendering: optimizeLegibility;
 
   > header, > section, > footer, > div,
@@ -110,6 +111,10 @@ a.inline svg {
   }
 }
 
-body {
-    background-color: white;
+.backdrop.barcelona {
+  background: url(/assets/barcelona-day.jpg) 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1em;
+  padding: 0;
 }
