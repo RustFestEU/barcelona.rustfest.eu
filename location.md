@@ -39,7 +39,7 @@ Barcelona can be reached by high-speed or overnight trains from French and Spani
 It's main station is called Barcelona Sants Station.
 Other regional and long-distance trains arrive and leave at França Station.
 
-For most European citizens the [Interrail (currently 10% off)](https://www.interrail.eu/en/autumn-sale/global-pass) is probably the most flexible and affordable ticket.
+For most European citizens [the Interrail pass (currently 10% off)](https://www.interrail.eu/en/autumn-sale/global-pass) is probably the most flexible and affordable ticket.
 For [Non-EWR citizens](https://www.interrail.eu/en/help/ordering-pass/do-i-need-interrail-or-eurail-pass) there is [Eurail](https://www.eurail.com/en/eurail-passes/global-pass).
 
 **More details to come**
