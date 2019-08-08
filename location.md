@@ -42,7 +42,7 @@ Other regional and long-distance trains arrive and leave at França Station.
 For most European citizens [the Interrail pass (currently 10% off)](https://www.interrail.eu/en/autumn-sale/global-pass) is probably the most flexible and affordable ticket.
 For [Non-EWR citizens](https://www.interrail.eu/en/help/ordering-pass/do-i-need-interrail-or-eurail-pass) there is [Eurail](https://www.eurail.com/en/eurail-passes/global-pass).
 
-**More details to come**
+**More details on [how to travel](https://blog.rustfest.eu/pre-post-events-sustainable-trains) and the [pre-/post events](/pre_post_events/).**
 
 ### By Plane
 
