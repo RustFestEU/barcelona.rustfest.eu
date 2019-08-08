@@ -84,6 +84,10 @@ section {
   }
 }
 
+strong {
+  font-weight: 600;
+}
+
 .itemgroup {
   @include display(flex);
   @include flex-direction(column);
