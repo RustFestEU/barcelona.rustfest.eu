@@ -144,6 +144,14 @@
             57.70917699785969
           ],
           [
+            12.864228487014769,
+            56.66926300326584
+          ],
+          [
+            12.694675326347351,
+            56.043853210172905
+          ],
+          [
             13.000946044921875,
             55.60919016798591
           ],
@@ -289,7 +297,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#fdff74",
+        "stroke": "#d84d61",
         "stroke-width": 4,
         "stroke-opacity": 1
       },
@@ -325,7 +333,8 @@
         "marker-color": "#fcff00",
         "marker-size": "medium",
         "marker-symbol": "marker",
-        "label": "Barcelona Sants"
+        "label": "Barcelona Sants",
+        "stroke": ""
       },
       "geometry": {
         "type": "Point",
@@ -381,6 +390,27 @@
           [
             4.978614449501038,
             44.991975191343265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#73a870",
+        "stroke-width": 3,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.2050302028656,
+            45.48703079811799
+          ],
+          [
+            8.539343476295471,
+            47.37810886268223
           ]
         ]
       }
