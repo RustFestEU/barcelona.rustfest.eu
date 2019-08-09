@@ -44,6 +44,8 @@ For [Non-EWR citizens](https://www.interrail.eu/en/help/ordering-pass/do-i-need-
 
 **More details on [how to travel](https://blog.rustfest.eu/pre-post-events-sustainable-trains) and the [pre-/post events](/pre_post_events/).**
 
+<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/pre-post-events/train-map.geojson"></script>
+
 ### By Plane
 
 You can reach Barcelona by plane and arrive at [Barcelona El Prat Josep Tarradellas Airport](https://www.aeropuertobarcelona-elprat.com/ingl/index.html), located just 12 km southwest of Barcelona.

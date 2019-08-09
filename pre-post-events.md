@@ -24,4 +24,9 @@ If you would like to submit your own event, please edit [this file](https://gith
 | -------- | ------------------------- | --------------------------------- |
 | City, CC | 2019-09-XX, 18:00 - 21:00 | An example meeting [with link](#) |
 
+# The Map
+
+<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/pre-post-events/train-map.geojson"></script>
+
+
 </section>
