@@ -5,6 +5,7 @@ title: Diversitat a RustFest
 ---
 
 [English version](/diversity/)
+
 [Spanish version](/diversity/es/)
 
 RustFest és una de les conferències més grans sobre el llenguatge de programació Rust i es pren de debò la missió de mantenir una comunitat inclusiva. 
