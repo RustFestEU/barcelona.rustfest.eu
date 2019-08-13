@@ -1,9 +1,9 @@
 
-$brand_blue: #247EFF;
-$brand_dark_blue: #084788;
-$brand_purple: #5252C9;
-$brand_yellow: #CABD4B;
-$brand_light_yellow: #e6da6e;
+$brand_blue: #65a2b3;
+$brand_dark_blue: #4f77aa;
+$brand_purple: #6589a4;
+$brand_yellow: #fbd224;
+$brand_light_yellow: #fbd224;
 $brand_green: #09D4B0;
 
 @import "bourbon/bourbon";
@@ -52,7 +52,7 @@ h2 {
   @include wide-device {
     font-size: 35px;
   }
-  
+
   margin-top: 1em;
   margin-bottom: 0;
 }
