@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Pre-/Post Events"
-permalink: /pre_post_events/
+title: "Pre-/Post-Conf Events"
+permalink: /pre_post_conf_events/
 ---
 
 {% include header_backdrop.html title="Pre-/Post Events" %}
