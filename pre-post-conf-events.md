@@ -4,7 +4,7 @@ title: "Pre-/Post-Conf Events"
 permalink: /pre_post_conf_events/
 ---
 
-{% include header_backdrop.html title="Pre-/Post Events" %}
+{% include header_backdrop.html title="Pre-/Post-Conf Events" %}
 
 <section markdown="1">
 
@@ -25,6 +25,8 @@ If you would like to submit your own event, please edit [this file](https://gith
 | City, CC | 2019-09-XX, 18:00 - 21:00 | An example meeting [with link](#) |
 
 # The Map
+
+For planing your trip, please have a look at our [blog post with possible train connections](https://blog.rustfest.eu/pre-post-conf-events-sustainable-train-travels).
 
 <script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/gh-pages/train-map.geojson"></script>
 
