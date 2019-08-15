@@ -10,7 +10,7 @@ permalink: /pre_post_conf_events/
 
 On this page we collect all the meetups happening before and after RustFest.
 
-If you would like to submit your own event, please edit [this file](https://github.com/RustFestEU/barcelona.rustfest.eu/blob/gh-pages/pre-post-events.md) and send us a [Pull Request](https://github.com/RustFestEU/barcelona.rustfest.eu/compare).
+If you would like to submit your own event, please edit [this file](https://github.com/RustFestEU/barcelona.rustfest.eu/blob/gh-pages/pre-post-conf-events.md) and send us a [Pull Request](https://github.com/RustFestEU/barcelona.rustfest.eu/compare).
 
 # Pre Events
 
@@ -26,7 +26,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 
 # The Map
 
-<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/pre-post-events/train-map.geojson"></script>
+<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/gh-pages/train-map.geojson"></script>
 
 
 </section>
