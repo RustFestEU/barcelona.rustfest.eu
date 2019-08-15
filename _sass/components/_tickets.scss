@@ -116,6 +116,16 @@
       }
     }
   }
+
+  .button {
+    margin: 0 1.5em 0 0;
+
+    &:hover {
+      background: transparent;
+      border-color: #fff;
+      color: #fff;
+    }
+  }
 }
 
 .smallprint {
