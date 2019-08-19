@@ -1,8 +1,11 @@
 ---
 layout: blue_page
 permalink: /scholarships/
+socialImageSrc: "/assets/social/scholarships.png"
 title: RustFest Barcelona Scholarships
 ---
+
+{# <script>TitoDevelopmentMode = true</script> #}
 
 [Ver en español](/scholarships/es/)
 
@@ -88,7 +91,6 @@ While cost is certainly a concern, with the above constraints having this option
 ### Send an application
 
 <div>
-<script>TitoDevelopmentMode = true</script>
 <script src='https://js.tito.io/v1' async></script>
 <style>
 .tito-ticket-price { display: none }
@@ -122,7 +124,6 @@ While cost is certainly a concern, with the above constraints having this option
   everyone's feedback is much appreciated.
 </blockquote>
 
-<!-- Place this where you want the widget to appear -->
 <tito-widget event="rustfest/barcelona2019" releases="2vvih4jyhz0 "></tito-widget>
 
 <p></p>
