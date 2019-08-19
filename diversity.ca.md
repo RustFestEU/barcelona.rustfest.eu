@@ -8,6 +8,15 @@ title: Diversitat a RustFest
 
 [Ver en español](/diversity/es/)
 
+
+<h3 style="text-align: center">Scholarship applications now open!</h3>
+<p  style="text-align: center; margin-bottom: 2em">
+    <a class="button primary" href="/scholarships/ca/">
+        Apply for Scholarship Support
+    </a>
+</p>
+
+
 RustFest és una de les conferències més grans sobre el llenguatge de programació Rust i es pren de debò la missió de mantenir una comunitat inclusiva. 
 
 Aquesta es basa en quatre principis.

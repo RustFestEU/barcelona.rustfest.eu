@@ -8,6 +8,15 @@ title: Diversity at RustFest
 
 [Veure en català](/diversity/ca/)
 
+
+<h3 style="text-align: center">Scholarship applications now open!</h3>
+<p  style="text-align: center; margin-bottom: 2em">
+    <a class="button primary" href="/scholarships/">
+        Apply for Scholarship Support
+    </a>
+</p>
+
+
 RustFest is one of the biggest Rust conferences and takes Rust's mission for an inclusive community seriously. This is based on multiple pillars.
 
 ## People-first budgeting
