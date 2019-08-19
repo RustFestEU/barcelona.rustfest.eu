@@ -1,8 +1,10 @@
 ---
 layout: blue_page
 permalink: /scholarships/
-socialImageSrc: "/assets/social/scholarships.png"
+socialImageSrc: "/assets/social/scholarships-logo.png"
 title: RustFest Barcelona Scholarships
+description: >
+  Apply today for a grant, offering free conference tickets and travel support.
 ---
 
 {% comment %}<script>TitoDevelopmentMode = true</script>{% endcomment %}

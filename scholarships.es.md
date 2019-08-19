@@ -1,7 +1,7 @@
 ---
 layout: blue_page
 permalink: /scholarships/es/
-socialImageSrc: "/assets/social/scholarships.png"
+socialImageSrc: "/assets/social/scholarships-logo.png"
 title: RustFest Barcelona Scholarships
 ---
 
