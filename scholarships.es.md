@@ -5,7 +5,7 @@ socialImageSrc: "/assets/social/scholarships.png"
 title: RustFest Barcelona Scholarships
 ---
 
-{# <script>TitoDevelopmentMode = true</script> #}
+{% comment %}<script>TitoDevelopmentMode = true</script>{% endcomment %}
 
 [English version](/scholarships/)
 
