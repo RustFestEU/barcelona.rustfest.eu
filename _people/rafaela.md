@@ -2,6 +2,7 @@
 name: Rafaela Wetzel
 groups:
   - organizer
+  - committee
 links:
   - icon: twitter
     link: https://twitter.com/RafaelaWetzel
