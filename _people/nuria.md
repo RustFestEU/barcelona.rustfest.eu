@@ -1,5 +1,5 @@
 ---
-name: Núria
+name: Núria Soriano
 groups:
   - committee
 links:
