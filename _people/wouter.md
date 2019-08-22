@@ -3,7 +3,9 @@ name: Wouter Geraedts
 groups:
   - committee
 links:
+  - icon: github
+    link: https://github.com/Wassasin/
 
-slug: generic_user
+jpg: true
 priority: 90
 ---
