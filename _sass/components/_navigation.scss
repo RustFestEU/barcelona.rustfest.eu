@@ -1,6 +1,6 @@
 header.navigation {
-  background-color: $brand_dark_blue;
-  border-bottom: 1px solid darken($brand_dark_blue, 10);
+  background-color: $barcelona_light_blue;
+  border-bottom: 1px solid darken($barcelona_dark_blue, 10);
   width: 100%;
   z-index: 999;
 
@@ -9,15 +9,15 @@ header.navigation {
   }
 
   .dates_props {
-      color: white;
+      color: $barcelona_blue;
       font-size: 80%;
       text-align: center;
   }
 
   a {
-    color: white;
+    color: $barcelona_blue;
     &:hover {
-      color: $brand_yellow;
+      color: $barcelona_dark_blue;
     }
   }
 
@@ -83,10 +83,18 @@ header.navigation {
         position: relative;
         width: 2em;
         height: 2em;
-        transition: background-color 0.5s ease;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+
         &:hover {
-          background-color: transparentize($brand_dark_blue, .5);
-          border-color: $brand_yellow;
+          background-color: transparentize($brand_dark_blue, .9);
+          border-color: $brand_green;
+
+          svg {
+            * {
+              fill: $brand_green;
+            }
+          }
         }
         svg {
           height: 1em;
@@ -95,6 +103,11 @@ header.navigation {
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          fill: currentColor;
+          * {
+            fill: $barcelona_blue;
+            transition: fill 0.2s ease;
+          }
         }
       }
     }
@@ -104,7 +117,7 @@ header.navigation {
 
 .with-hero header.navigation {
   @include wide-device {
-    background-color: transparentize($brand_dark_blue, 0.5);
+    background-color: transparentize(white, 0.2);
     border-bottom: none;
     position: absolute;
     transition: background-color 0.5s ease;
