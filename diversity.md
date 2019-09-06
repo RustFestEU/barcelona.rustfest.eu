@@ -8,6 +8,15 @@ title: Diversity at RustFest
 
 [Veure en català](/diversity/ca/)
 
+
+<h3 style="text-align: center">Scholarship applications now open!</h3>
+<p  style="text-align: center; margin-bottom: 2em">
+    <a class="button primary" href="/scholarships/">
+        Apply for Scholarship Support
+    </a>
+</p>
+
+
 RustFest is one of the biggest Rust conferences and takes Rust's mission for an inclusive community seriously. This is based on multiple pillars.
 
 ## People-first budgeting
@@ -28,7 +37,7 @@ It is important to us that diversity ticket holders have no issues attending. Fo
 
 When talking about diversity efforts in IT, disability is often forgotten. We believe this needs to change. RustFest has always had an [accessibility statement](/accessibility/) with proper, upfront documentation. Our efforts are cross-checked and implemented with actually disabled people. RustFest always has a person responsible for accessibility efforts.
 
-RustFest acknowledges that disability is diverse and will work with you directly to solve all of your needs. We will actively work on the issue together with you.
+RustFest acknowledges that disability is diverse and will work with you actively to meet all of your needs. 
 
 ## Food and catering choices
 

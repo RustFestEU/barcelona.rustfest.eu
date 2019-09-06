@@ -8,3 +8,7 @@
   link: "/imprint/"
 - title: "Accessibility"
   link: "/accessibility/"
+- title: Pre-/Post-Conf Events
+  link: /pre_post_conf_events/
+- title: CfP
+  link: https://cfp.rustfest.eu/events/rustfest-barcelona-2019

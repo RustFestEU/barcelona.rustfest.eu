@@ -8,6 +8,8 @@
   link: /about_impl_days/
 - title: Location
   link: /location/
+- title: Pre-/Post-Conf Events
+  link: /pre_post_conf_events/
 - title: Past Events
   link: https://blog.rustfest.eu/past_events/
 - title: "Policies"

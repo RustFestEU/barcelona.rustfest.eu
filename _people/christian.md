@@ -2,6 +2,7 @@
 name: Christian Perez-Llamas
 groups:
   - organizer
+  - committee
 links:
   - icon: twitter
     link: https://twitter.com/chris_zen
