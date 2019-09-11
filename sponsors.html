@@ -28,7 +28,7 @@ title: Sponsoring
     <h2>Gold Sponsor{% if gold_sponsors[1] %}s{% endif %}</h2>
     <ul class="gold">
     {% for sponsor in gold_sponsors %}
-      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
       {% if sponsor.desc %}
       <li><p>{{sponsor.desc}}</p></li>
       {% endif %}
@@ -40,7 +40,7 @@ title: Sponsoring
     <h2>Silver Sponsor{% if silver_sponsors[1] %}s{% endif %}</h2>
     <ul class="silver">
     {% for sponsor in silver_sponsors %}
-      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
       {% if sponsor.desc %}
       <li><p>{{sponsor.desc}}</p></li>
       {% endif %}
@@ -52,7 +52,7 @@ title: Sponsoring
     <h2>Bronze Sponsor{% if bronze_sponsors[1] %}s{% endif %}</h2>
     <ul class="bronze">
     {% for sponsor in bronze_sponsors %}
-      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
       {% if sponsor.desc %}
       <li><p>{{sponsor.desc}}</p></li>
       {% endif %}
@@ -64,7 +64,7 @@ title: Sponsoring
     <h2>Travel Sponsor{% if travel_sponsors[1] %}s{% endif %}</h2>
     <ul class="travel">
     {% for sponsor in travel_sponsors %}
-      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+      <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
       {% if sponsor.desc %}
       <li><p>{{sponsor.desc}}</p></li>
       {% endif %}
@@ -79,7 +79,7 @@ title: Sponsoring
     <hr />
       <ul>
         {% for sponsor in partners %}
-          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
           {% if sponsor.desc %}
           <li><p>{{sponsor.desc}}</p></li>
           {% endif %}
@@ -93,7 +93,7 @@ title: Sponsoring
     <hr />
       <ul class="media">
         {% for sponsor in media %}
-          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
           {% if sponsor.desc %}
           <li><p>{{sponsor.desc}}</p></li>
           {% endif %}
@@ -118,7 +118,7 @@ title: Sponsoring
     <hr />
       <ul>
         {% for sponsor in venue %}
-          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
+          <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></a></li>
           {% if sponsor.desc %}
           <li><p>{{sponsor.desc}}</p></li>
           {% endif %}
