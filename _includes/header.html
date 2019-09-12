@@ -1,6 +1,6 @@
 <header class="navigation" role="banner">
   <section class="itemgroup">
-    <a href="/" class="logo" title="RustFest">
+    <a href="/" class="logo" title="RustFest" aria-label="Go to homepage">
       {% include icons/logo-header.svg %}
       <span class="site-title">
         RustFest
@@ -19,12 +19,12 @@
       <div class="social-bar">
         <ul>
           <li>
-            <a href="https://twitter.com/{{ site.social.twitter }}">
+            <a href="https://twitter.com/{{ site.social.twitter }}" aria-label="RustFest's Twitter">
               {% include icons/twitter.svg %}
             </a>
           </li>
           <li>
-            <a href="https://github.com/{{ site.social.github }}">
+            <a href="https://github.com/{{ site.social.github }}" aria-label="RustFest's GitHub">
               {% include icons/github.svg %}
             </a>
           </li>
