@@ -10,3 +10,28 @@ example:
       link: https://twitter.com/example
   desc: |
     Example
+
+ryan-levick:
+  name: Ryan Levick
+  thumbnailUrl: ryan-levick.jpg
+  featured: true
+  links:
+    - icon: github
+      link: https://github.com/rylev
+    - icon: twitter
+      link: https://twitter.com/itchyankles
+  desc: |
+    Ryan is a Cloud Developer Advocate at Microsoft focusing full time on Rust, advocating for Rust and the Rust community inside and out of Microsoft.
+    Ryan spends his days working closely with teams inside of Microsoft to see how they can best serve the needs of the Rust community.
+    Ryan is excited to be back at RustFest after speaking at RustFest Rome and acting as the first RustFest MC in Berlin.
+
+sebastian-fernandez:
+  name: Sebastian Fernandez
+  thumbnailUrl: sebastian-fernandez.jpg
+  featured: true
+  desc: |
+    Sebastian is a Security Engineer at Microsoft Security Response Center (MSRC) Vulnerabilities & Mitigations team.
+    There, he spends his time tackling the problem of memory safety at scale and working
+    with research and engineering teams to adopt safer development practices including Rust.
+    Previously, Sebastian has written dozens of exploits abusing memory corruption vulnerabilities
+    in client side software and generating research to improve the exploits stability.

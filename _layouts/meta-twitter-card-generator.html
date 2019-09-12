@@ -221,7 +221,30 @@
 
   <div class="card">
     <div class="imgbox" data-frame="/assets/favicons/logo.svg">
-      <img src="/assets/rome/rustbridge.jpg" alt="rustbridge" class="img_speaker">
+      <img src="/assets/speakers/ryan-levick.jpg" alt="ryan" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+    <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/speakers/sebastian-fernandez.jpg" alt="sebastian" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+
+    <section class="infobox" contenteditable spellcheck="false">
+      <span class="twitter">Keynote:</span>
+      <span class="speaker">R-Evolution: A Story of Rust Adoption</span>
+      <span class="title">
+        <strong>Ryan Levick &amp; Sebastian Fernandez</strong><br>
+      </span>
+    </section>
+
+    <footer contenteditable spellcheck="false">
+        RustFest Barcelona 2019&nbsp; ·&nbsp; Nov. 9.-12., Barcelona, Spain&nbsp; ·&nbsp; barcelona.rustfest.eu
+    </footer>
+  </div>
+
+  <div class="card">
+    <div class="imgbox" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/speakers/no-photo.jpg" alt="rustbridge" class="img_speaker">
       <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
     </div>
 
@@ -244,7 +267,8 @@
     // for multiple speakers on a session build it manually, see EXAMPLE above
 
     var data = [
-    //["neal-walfield.jpg", "Sequoia: A New OpenPGP Implementation in Rust", "@nwalfield", "by Neal Walfield"],
+    //["sebastian-fernandez.jpg", "R-Evolution: A Story of Rust Adoption", "Keynote", "by Ryan Levick & Sebastian Fernandez"],
+
     //["nick.jpg","name", "@twitter", "title"],
     //["aturon.jpg","Aaron Turon", "@aaron_turon", "Keynote Presentation — TBA"],
     //["irr.png","Increasing Rust's Reach", "#RustReach", "Project Highlight — Ashley Williams · Alan Kavishe · Lee Baillie"],
@@ -276,7 +300,7 @@
 
     data.forEach(d => {
     var nc = card.cloneNode(true);
-    nc.querySelector('img').src = '/assets/rome/speakers/'+d[0];
+    nc.querySelector('img').src = '/assets/speakers/'+d[0];
     nc.querySelector('.speaker').textContent = d[1];
     nc.querySelector('.twitter').textContent = d[2];
     nc.querySelector('.title').textContent = d[3];
