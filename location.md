@@ -44,7 +44,7 @@ For [Non-EWR citizens](https://www.interrail.eu/en/help/ordering-pass/do-i-need-
 
 **More details on [how to travel](https://blog.rustfest.eu/pre-post-events-sustainable-trains) and the [pre-/post events](/pre_post_conf_events/).**
 
-<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/pre-post-events/train-map.geojson"></script>
+<script src="https://embed.github.com/view/geojson/RustFestEU/barcelona.rustfest.eu/master/train-map.geojson"></script>
 
 ### By Plane
 
