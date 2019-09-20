@@ -22,6 +22,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 
 | Location |           When            |               What                |
 | -------- | ------------------------- | --------------------------------- |
+| Barcelona, Spain | 2019-11-12 to 2019-11-15 | [Linux App Summit](https://linuxappsummit.org/) Three day conference around Linux desktop applications ecosystem |
 | City, CC | 2019-09-XX, 18:00 - 21:00 | An example meeting [with link](#) |
 
 # The Map
