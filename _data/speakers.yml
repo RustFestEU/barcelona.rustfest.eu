@@ -93,3 +93,16 @@ niklas-reppel:
       link: https://github.com/the-drunk-coder
   desc: |
      Niklas is an audio developer and live coder and part of TOPLAP Barcelona.
+
+pietro-albini:
+  name: Pietro Albini
+  thumbnailUrl: pietro-albini.jpg
+  links:
+    - icon: github
+      link: https://github.com/pietroalbini
+    - icon: twitter
+      link: https://twitter.com/pietroalbini
+  desc: |
+     Pietro Albini is a member of the Rust infrastructure, release and crates.io teams, contributing to the project since 2018 both as a volunteer and a contractor.
+     Among other things, Pietro managed the release of multiple Rust versions and is the maintainer of Crater,
+     a tool to test compiler changes across the Rust ecosystem to detect regressions.
