@@ -43,3 +43,14 @@ claudia-saxer:
     Claudia Saxer is a Swiss software engineer with over 9 years of experience in object-oriented programming in C# and TypeScript.
     She is working for Zühlke one of the largest engineering companies of Switzerland.
 
+tyler-mandry:
+  name: Tyler Mandry
+  thumbnailUrl: tyler-mandry.png
+  links:
+    - icon: github
+      link: https://github.com/tmandry
+    - icon: twitter
+      link: https://twitter.com/tmandry
+  desc: |
+    Tyler is part of the Fuchsia team at Google, where async/await is extensively used.
+    He contributed a number of optimizations targeting async/await and generators in the Rust compiler, along with other work.
