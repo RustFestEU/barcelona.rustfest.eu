@@ -70,3 +70,12 @@ malte-sandstede:
     In his software consulting firm Clockworks,
     he uses the same tech stack to explore novel stream processing paradigms.
     And, of course, all implementation is done in Rust!
+
+niklas-reppel:
+  name: Niklas Reppel
+  thumbnailUrl: no-photo.jpg
+  links:
+    - icon: github
+      link: https://github.com/the-drunk-coder
+  desc: |
+     Niklas is an audio developer and live coder and part of TOPLAP Barcelona.
