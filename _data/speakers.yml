@@ -154,3 +154,106 @@ neville-dipale:
      and has a keen interest in Rust and making things faster and stabler.
      He's been "replacing all the things" with Rust,
      and consider myself a member of the Rust Evangelism Strike Force!
+
+luca-palmieri:
+  name: Luca Palmieri
+  thumbnailUrl: luca-palmieri.png
+  links:
+    - icon: github
+      link: https://github.com/LukeMathWalker
+    - icon: twitter
+      link: https://twitter.com/algo_luca
+  desc: |
+    Luca Palmieri is a Mathematician by training, Data Scientist by trade, Rustacean by night.
+    He builds ML products and data-intensive applications at TrueLayer.
+    Rust-wise, he is an active maintainer of [ndarray-stats](https://github.com/jturner314/ndarray-stats) and [ndarray](https://github.com/rust-ndarray/ndarray).
+    He says not to be consistent, but when he manages to distill and collect his thoughts on spurious topics, they are published at https://lpalmieri.com.
+
+hanno-braun:
+  name: Hanno Braun
+  thumbnailUrl: hanno-braun.jpg
+  desc: |
+     [Hanno Braun](https://braun-embedded.com/) has been active in the embedded Rust community for years and is involved in some of the key groups in the space.
+     He's running Braun Embedded, a one-man consultancy focused on embedded Rust.
+
+matthias-endler:
+  name: Matthias Endler
+  thumbnailUrl: matthias-endler.jpg
+  links:
+    - icon: github
+      link: https://github.com/mre
+    - icon: twitter
+      link: https://twitter.com/matthiasendler
+  desc: |
+     [Matthias Endler](https://matthias-endler.de/) is a backend engineer at Trivago and long-time member of the Rust community.
+     He's been teaching Rust for years, through his blog, his YouTube show "Hello, Rust!", and many talks and workshops at various events.
+
+daan-van-berkel:
+  name: Daan van Berkel
+  thumbnailUrl: no-photo.jpg
+  desc: |
+     Daan van Berkel is a enthusiastic software tinkerer with a knack for presenting technical details in a clear and concise manner.
+     Driven by the desire for understanding complex matters Daan is always on the lookout for innovative uses of software
+
+mitchell-nordine:
+  name: Mitchell Nordine
+  thumbnailUrl: no-photo.jpg
+  links:
+    - icon: github
+      link: https://github.com/mitchmindtree
+    - icon: twitter
+      link: https://twitter.com/themindtree
+  desc: |
+     A digital artist and Rust enthusiast, developing the nannou creative coding framework and community for the past two years and the wider Rust audiovisual ecosystem since Rust 0.9.
+     As a violinist turned music producer turned programmer, Mitchell is passionate about coding as a tool for creative expression and creative coding as a tool for learning.
+
+joshua-batty:
+  name: Joshua Batty
+  thumbnailUrl: no-photo.jpg
+  desc: |
+     Dr Joshua Batty a creative coder: artist: musician: freelancer: researcher: & digital alchemist who is passionate about creating audiovisual sensory experiences with digital technology.
+     He specialises in developing realtime interactive audiovisual environments as one half of MindBuffer, and is a co-founder of the Rust creative coding framework, Nannou.
+
+guillaume-gomez:
+  name: Guillaume Gomez
+  thumbnailUrl: imperio.jpg
+  links:
+    - icon: github
+      link: https://github.com/GuillaumeGomez
+  desc: |
+     Guillaume is a young IT engineer, member of the rust tool and rust documentation teams, member of the GNOME foundation and owner of the gtk-rs organization.
+     But to keep it simple: opensource lover.
+
+sebastian-droege:
+  name: Sebastian Dröge
+  thumbnailUrl: no-photo.jpg
+  links:
+    - icon: github
+      link: https://github.com/sdroege
+  desc: |
+     Sebastian is a Free Software developer and one of the GStreamer maintainers and core developers.
+     He has been involved with the project since more than 10 years now.
+     He also contributes to various other Free Software projects, like Debian, Rust, GNOME and WebKit.
+     While finishing his master’s degree in computer sciences at the University of Paderborn in Germany, he started working as a contractor for GStreamer and related technologies.
+     Sebastian is one of the founders of Centricular.
+
+ramon-huidobro:
+  name: Ramón Huidobro
+  thumbnailUrl: no-photo.jpg
+  desc: |
+     Ramón is a freelance software developer and avid community member.
+     Previously also a kids' coding instructor and football coach.
+     If he were a kitchen item, he'd be a fridge, 'cause I keep things cool.
+
+lislis:
+  name: Lisa Passing
+  thumbnailUrl: lislis.jpg
+  links:
+    - icon: github
+      link: https://github.com/lislis
+  desc: ""
+
+marisa:
+  name: Marisa
+  thumbnailUrl: marisa.jpg
+  desc: ""
