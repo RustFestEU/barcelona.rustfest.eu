@@ -71,6 +71,20 @@ malte-sandstede:
     he uses the same tech stack to explore novel stream processing paradigms.
     And, of course, all implementation is done in Rust!
 
+david-bach:
+  name: David Bach
+  thumbnailUrl: david-bach.jpg
+  links:
+    - icon: github
+      link: https://github.com/eoxxs
+    - icon: twitter
+      link: https://twitter.com/bachdavi
+  desc: |
+     David is a graduate physics student at ETH Zürich conducting research in complex networks, functional-relational programming and databases.
+     Professional he is part of a small software consultancy, Clockworks, specialized in distributed stream processing and data-intensive applications.
+     Rust is his first choice for both
+     and has reliably proven itself as the perfect systems programming language to tackle problems in stream processing, database research, and concurrency.
+
 niklas-reppel:
   name: Niklas Reppel
   thumbnailUrl: no-photo.jpg
