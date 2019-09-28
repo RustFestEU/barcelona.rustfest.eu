@@ -54,3 +54,19 @@ tyler-mandry:
   desc: |
     Tyler is part of the Fuchsia team at Google, where async/await is extensively used.
     He contributed a number of optimizations targeting async/await and generators in the Rust compiler, along with other work.
+
+malte-sandstede:
+  name: Malte Sandstede
+  thumbnailUrl: malte-sandstede.png
+  links:
+    - icon: github
+      link: https://github.com/li1
+    - icon: twitter
+      link: https://twitter.com/maltesandstede
+  desc: |
+    Malte is interested in data-centric functional and relational programming.
+    His aim is to create simple and effective programs — to unveil technology's inherent beauty.
+    Currently, he writes his Master's thesis on online analysis of distributed dataflows with differential computation at ETH Zurich and TU Munich.
+    In his software consulting firm Clockworks,
+    he uses the same tech stack to explore novel stream processing paradigms.
+    And, of course, all implementation is done in Rust!
