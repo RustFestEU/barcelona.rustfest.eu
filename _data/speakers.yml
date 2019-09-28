@@ -35,3 +35,11 @@ sebastian-fernandez:
     with research and engineering teams to adopt safer development practices including Rust.
     Previously, Sebastian has written dozens of exploits abusing memory corruption vulnerabilities
     in client side software and generating research to improve the exploits stability.
+
+claudia-saxer:
+  name: Claudia Saxer
+  thumbnailUrl: claudia-saxer.jpg
+  desc: |
+    Claudia Saxer is a Swiss software engineer with over 9 years of experience in object-oriented programming in C# and TypeScript.
+    She is working for Zühlke one of the largest engineering companies of Switzerland.
+
