@@ -131,3 +131,22 @@ brian-anderson:
   desc: |
      A programmer with 9 years of Rust experience.
      Currently at PingCAP working on TiKV.
+
+katharina-fey:
+  name: Katharina Fey
+  thumbnailUrl: no-photo.jpg
+  desc: |
+    Katharina is a freelance free software developer from Berlin, who's been contributing the various Rust projects since 2017.
+    Currently she works on distributed network and communication infrastructure at qaul.net,
+    and can otherwise usually be found posting on twitter, or bikeshedding her neomutt configuration.
+
+neville-dipale:
+  name: Neville Dipale
+  thumbnailUrl: no-photo.jpg
+  desc: |
+     Neville is a South African chartered accountant who started programming
+     and software development as a hobby in his high school days.
+     These days he works in Data Engineering and software development,
+     and has a keen interest in Rust and making things faster and stabler.
+     He's been "replacing all the things" with Rust,
+     and consider myself a member of the Rust Evangelism Strike Force!
