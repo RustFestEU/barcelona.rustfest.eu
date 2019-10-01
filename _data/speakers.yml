@@ -106,3 +106,28 @@ pietro-albini:
      Pietro Albini is a member of the Rust infrastructure, release and crates.io teams, contributing to the project since 2018 both as a volunteer and a contractor.
      Among other things, Pietro managed the release of multiple Rust versions and is the maintainer of Crater,
      a tool to test compiler changes across the Rust ecosystem to detect regressions.
+
+aimee-z:
+  name: Aimee Z
+  thumbnailUrl: aimee-z.jpg
+  links:
+    - icon: github
+      link: https://github.com/aimeedeer
+    - icon: twitter
+      link: https://twitter.com/Aimee_Z_
+  desc: |
+    Aimee Zhu is the editor of the Rust in blockchain newsletter.
+    Aimee is an active Rust community member, organized RustCon Asia and other Rust community events as well.
+    After having worked on the Rust in Blockchain newsletter, Aimee has started setting up Rust & Blockchain community.
+    Rust in Blockchain is a monthly newsletter focused on Rust programming and blockchain development,
+    with a view to bringing engineering insight and experience to blockchain technology.
+
+brian-anderson:
+  name: Brian Anderson
+  thumbnailUrl: brian-anderson.jpg
+  links:
+    - icon: github
+      link: brson
+  desc: |
+     A programmer with 9 years of Rust experience.
+     Currently at PingCAP working on TiKV.
