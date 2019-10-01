@@ -242,7 +242,7 @@
     </footer>
   </div>
 
-  <div class="card">
+  <div class="card single">
     <div class="imgbox" data-frame="/assets/favicons/logo.svg">
       <img src="/assets/speakers/no-photo.jpg" alt="rustbridge" class="img_speaker">
       <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
@@ -261,53 +261,63 @@
     </footer>
   </div>
 
+  <div class="card double">
+    <div class="imgbox speaker-a" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/speakers/no-photo.jpg" alt="" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+    <div class="imgbox speaker-b" data-frame="/assets/favicons/logo.svg">
+      <img src="/assets/speakers/no-photo.jpg" alt="" class="img_speaker">
+      <img src="/assets/favicons/logo.svg" alt="RustFest Logo" class="frame">
+    </div>
+
+    <section class="infobox" contenteditable spellcheck="false">
+      <span class="twitter">Keynote:</span>
+      <span class="speaker">R-Evolution: A Story of Rust Adoption</span>
+      <span class="title">
+        <strong>Ryan Levick &amp; Sebastian Fernandez</strong><br>
+      </span>
+    </section>
+
+    <footer contenteditable spellcheck="false">
+        RustFest Barcelona 2019&nbsp; ·&nbsp; Nov. 9.-12., Barcelona, Spain&nbsp; ·&nbsp; barcelona.rustfest.eu
+    </footer>
+  </div>
 
   <script>
 
-    // for multiple speakers on a session build it manually, see EXAMPLE above
-
     var data = [
-    //["sebastian-fernandez.jpg", "R-Evolution: A Story of Rust Adoption", "Keynote", "by Ryan Levick & Sebastian Fernandez"],
-
-    //["nick.jpg","name", "@twitter", "title"],
-    //["aturon.jpg","Aaron Turon", "@aaron_turon", "Keynote Presentation — TBA"],
-    //["irr.png","Increasing Rust's Reach", "#RustReach", "Project Highlight — Ashley Williams · Alan Kavishe · Lee Baillie"],
-
-    // suggested format for talks
-    // ["speaker_pic.jpg","Session title", "@twitter_handle", "by Speaker Name"],
-    //["tshepang-lekhonkhobe.jpg","Behind the scenes of producing an executable", "@tshepang-dev", "by Tshepang Lekhonkhobe"],
-    //["matteo-bertini.jpg","Simple CRDT in Rust", "@naufraghi", "by Matteo Bertini"],
-    //["katharina-fey.jpg","Commandline Applications in Rust", "@spacekookie", "by Katharina Fey"],
-    //["pascal-hertleif.jpg","Declarative programming in Rust", "@killercup", "by Pascal Hertleif"],
-    //["ryan-levick.jpg","Oh Boy! Creating a Game Boy Emulator in Rust", "@itchyankles", "by Ryan Levick"],
-    //["yiming-jing.jpg","One Thousand Ways to Die in Rust FFI (and How to Survive)", "@__YimingJing", "by Yiming Jing"],
-    //["adam-kelly.jpg","Rust, For Science!", "@adamisntdead", "by Adam Kelly"],
-    //["igor-matuszewski.jpg","Caging the SpiderMonkey - Ensuring safe JS bindings in Servo", "@Xanewok", "by Igor Matuszewski"],
-
-    // todo
-    //["massimiliano-mantione.jpg","Fun with Rusty Robots", "@M_a_s_s_i", "by Massimiliano Mantione"],
-
-    // workshops
-    //["olivia.jpg","RustBridge Workshop", "@dog_awoo", "by Olivia Hugger"],
-    //["dns2utf8.png","Parallel programming", "@dns2utf8", "by Stefan Schindler"],
-    //["llogiq.jpg","Effective Rust Documentation", "@llogiq", "by Andre 'llogiq' Bogus"],
-    //["jack-fransham.jpg","Fastware", "@meatwithdreams", "by Jack Fransham"],
-    //["maciej-hirsz.jpg","Writing Parsers and Cutting Corners or: How I Learned to Stop Worrying and Love ASCII", "@MaciejHirsz", "by Maciej Hirsz"],
-    /* note: pics for workshops with two people were generated manually */
-
+        ["claudia-saxer.jpg", "66 hours of Rust", "Talk", "by Claudia Saxer"],
+        ["tyler-mandry.png", "Life of an async fn", "@tmandry", "by Tyler Mandry"],
+        [["malte-sandstede.png", "david-bach.jpg"], "Right inside the database", "@maltesandstede & @bachdavi", "by Malte Sandstede & David Bach"],
+        ["ferris.png", "Amp Up Web Audio Applications with Rust and WebAssembly", "Talk", "by Niklas Reppel"],
+        ["pietro-albini.jpg", "Shipping a stable compiler every six weeks", "@pietroalbini", "by Pietro Albini"],
+        [["aimee-z.jpg", "brian-anderson.jpg"], "Rust in China", "@Aimee_Z_ & brson", "by Aimee Z & Brian Anderson"]
     ];
-    var card = document.querySelector('.card:last-of-type');
+    var card = document.querySelector('.card.single');
+    var doubleCard = document.querySelector('.card.double')
 
     data.forEach(d => {
-    var nc = card.cloneNode(true);
-    nc.querySelector('img').src = '/assets/speakers/'+d[0];
-    nc.querySelector('.speaker').textContent = d[1];
-    nc.querySelector('.twitter').textContent = d[2];
-    nc.querySelector('.title').textContent = d[3];
-    document.body.appendChild(nc);
+        if (typeof d[0] == "object") {
+            var nc = doubleCard.cloneNode(true);
+            nc.querySelector('.speaker-a img').src = '/assets/speakers/'+d[0][0];
+            nc.querySelector('.speaker-b img').src = '/assets/speakers/'+d[0][1];
+            nc.querySelector('.speaker').textContent = d[1];
+            nc.querySelector('.twitter').textContent = d[2];
+            nc.querySelector('.title').textContent = d[3];
+            document.body.appendChild(nc);
+        } else {
+            var nc = card.cloneNode(true);
+            nc.querySelector('img').src = '/assets/speakers/'+d[0];
+            nc.querySelector('.speaker').textContent = d[1];
+            nc.querySelector('.twitter').textContent = d[2];
+            nc.querySelector('.title').textContent = d[3];
+            document.body.appendChild(nc);
+        }
     })
 
     card.style.display = "none";
+    doubleCard.style.display = "none";
   </script>
   </body>
 
