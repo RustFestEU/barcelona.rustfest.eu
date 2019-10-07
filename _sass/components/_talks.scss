@@ -1,5 +1,3 @@
-
-
 .talks {
   @include display(flex);
   // @include align-items(top);
@@ -15,7 +13,7 @@
   $base-border-radius: 3px !default;
   $base-background-color: white !default;
   $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
+  $action-color: #477dca !default;
   $dark-gray: #333 !default;
   $base-font-color: $dark-gray !default;
   $card-border-color: $base-border-color;
@@ -27,7 +25,7 @@
     padding-bottom: 2em;
     &::after {
       display: block;
-      content : " ";
+      content: ' ';
       width: 50%;
       border-bottom: $card-border;
       margin: 0 auto;
@@ -36,7 +34,7 @@
       width: 100%;
       display: block;
 
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       font-weight: bold;
 
       a {
@@ -59,12 +57,11 @@
     @include flex-wrap(nowrap);
   }
 
-
   .abstract {
     @include flex-grow(2);
 
     blockquote {
-      border-left: .25em solid #99aaff;
+      border-left: 0.25em solid #99aaff;
       margin-left: 0;
       padding-left: 1.5em;
     }
@@ -103,6 +100,7 @@
       text-align: justify;
       font-size: 0.65em;
       font-weight: normal;
+      width: 100%;
       p {
         max-width: 1000px;
       }
@@ -131,6 +129,6 @@
   }
 
   .name {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
 }
