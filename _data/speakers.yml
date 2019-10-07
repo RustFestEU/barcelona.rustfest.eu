@@ -127,7 +127,7 @@ brian-anderson:
   thumbnailUrl: brian-anderson.jpg
   links:
     - icon: github
-      link: brson
+      link: https://github.com/brson
   desc: |
      A programmer with 9 years of Rust experience.
      Currently at PingCAP working on TiKV.
