@@ -108,7 +108,7 @@ pietro-albini:
      a tool to test compiler changes across the Rust ecosystem to detect regressions.
 
 aimee-z:
-  name: Aimee Z
+  name: Aimee Zhu
   thumbnailUrl: aimee-z.jpg
   links:
     - icon: github
@@ -116,11 +116,7 @@ aimee-z:
     - icon: twitter
       link: https://twitter.com/Aimee_Z_
   desc: |
-    Aimee Zhu is the editor of the Rust in blockchain newsletter.
-    Aimee is an active Rust community member, organized RustCon Asia and other Rust community events as well.
-    After having worked on the Rust in Blockchain newsletter, Aimee has started setting up Rust & Blockchain community.
-    Rust in Blockchain is a monthly newsletter focused on Rust programming and blockchain development,
-    with a view to bringing engineering insight and experience to blockchain technology.
+    Editor of Rustinblockchain.org; Building dev community for Rust Blockchain and Nervos Network; Organized RustCon Asia 2019.
 
 brian-anderson:
   name: Brian Anderson
