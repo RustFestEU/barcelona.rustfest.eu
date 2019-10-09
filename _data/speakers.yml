@@ -141,7 +141,12 @@ katharina-fey:
 
 neville-dipale:
   name: Neville Dipale
-  thumbnailUrl: no-photo.jpg
+  thumbnailUrl: neville-dipale.jpg
+  links:
+    - icon: github
+      link: https://github.com/nevi-me
+    - icon: twitter
+      link: https://twitter.com/nevi_me
   desc: |
      Neville is a South African chartered accountant who started programming
      and software development as a hobby in his high school days.

@@ -26,5 +26,5 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/public-transit-delays.png
 description: "This talk explores how we progressively use Rust to power crowd-sourcing of train delays"
 
-public: false
+public: true
 ---

@@ -25,5 +25,5 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/human-cost-of-dev.png
 description: "There's a human cost to software development. This is a look into the causes and mitigations."
 
-public: false
+public: true
 ---
