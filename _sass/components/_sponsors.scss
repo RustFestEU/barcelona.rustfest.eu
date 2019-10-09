@@ -41,6 +41,12 @@
         max-width: 15vw;
       }
     }
+    &.mini {
+      img {
+        max-height: 15vh;
+        max-width: 15vw;
+      }
+    }
     &.travel {
       img {
         max-height: 15vh;

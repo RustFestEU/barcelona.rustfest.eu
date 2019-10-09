@@ -9,6 +9,7 @@ title: Sponsoring
 {% assign silver_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "silver" %}
 {% assign bronze_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "bronze" %}
 {% assign travel_sponsors = site.sponsors | where: "group", "sponsor" | where: "level", "travel" %}
+{% assign mini = site.sponsors | where: "group", "mini" %}
 {% assign partners = site.sponsors | where: "group", "partner" %}
 {% assign venue = site.sponsors | where: "group", "venue" %}
 {% assign media = site.sponsors | where: "group", "media" %}
@@ -96,6 +97,17 @@ title: Sponsoring
           {% if sponsor.desc %}
           <li><p>{{sponsor.desc}}</p></li>
           {% endif %}
+        {% endfor %}
+      </ul>
+  </section>
+{% endif %}
+{% if mini[0] %}
+  <section>
+    <h2>Supporters</h2>
+    <hr />
+      <ul class="mini">
+        {% for sponsor in mini %}
+          <li><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></li>
         {% endfor %}
       </ul>
   </section>
