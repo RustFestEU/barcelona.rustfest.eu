@@ -21,7 +21,7 @@ desc: >
     So let's explore your favorite natural forms.
 
 socialTwitterCardType: summary_large_image
-socialImageSrc: /assets/social/lindenamayer-systems.png
+socialImageSrc: /assets/social/lindenmayer-systems.png
 description: "This workshop will explore Lindenmayer systems, or L-systems."
 
 public: true
