@@ -270,3 +270,13 @@ georg-semmler:
     Currently he is writing his PhD thesis at TU Bergakademie Freiberg, Germany,
     where he builds a database system for geoscientist to collaborate on their work
     and which allows others to reproduce their results.
+
+rvidal:
+  name: Roberto Vidal
+  thumbnailUrl: rvidal.png
+  links:
+    - icon: github
+      link: https://github.com/jrvidal
+  desc: |
+    Senior Engineer at Tuenti by day, Rustacean by night. Organizer of the [Madrid Rust meetup](https://www.meetup.com/MadRust/).
+    He wants you to learn Rust.

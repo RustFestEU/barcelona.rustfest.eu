@@ -5,6 +5,7 @@ type: workshop
 display_first: true
 
 speakers:
+  - rvidal
   - marisa
 
 title: RustBridge
