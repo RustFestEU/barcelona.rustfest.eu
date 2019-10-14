@@ -266,7 +266,7 @@ georg-semmler:
         link: https://github.com/weiznich
   desc: |
     Georg Semmler is a Diesel core team member and creator of Wundergraph.
-     He is writing Rust code since 2014 and helped to port a geoscientific database system from C++ to Rust.
-     Currently he is writing his PhD thesis at TU Bergakademie Freiberg, Germany,
-     where he builds a database system for geoscientist to collaborate on their work
-     and which allows others to reproduce their results.
+    He is writing Rust code since 2014 and helped to port a geoscientific database system from C++ to Rust.
+    Currently he is writing his PhD thesis at TU Bergakademie Freiberg, Germany,
+    where he builds a database system for geoscientist to collaborate on their work
+    and which allows others to reproduce their results.
