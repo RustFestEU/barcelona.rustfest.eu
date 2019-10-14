@@ -16,14 +16,15 @@ If you would like to submit your own event, please edit [this file](https://gith
 
 | Location |           When            |               What                |
 | -------- | ------------------------- | --------------------------------- |
-| City, CC | 2019-09-XX, 18:00 - 21:00 | An example meeting [with link](#) |
+| Bergen, Norway | 2019-10-30 17:15 | [🦀 Rust with Jan-Erik](https://www.meetup.com/BitShift/events/265561649/) - Bitshift Meetup Bergen |
+| Berlin, Germany | 2019-10-30 19:00 | [Rust Hack and Learn](https://berline.rs/2019/10/30/rust-hack-and-learn.html) |
 
 # Post Events
 
 | Location |           When            |               What                |
 | -------- | ------------------------- | --------------------------------- |
-| Barcelona, Spain | 2019-11-12 to 2019-11-15 | [Linux App Summit](https://linuxappsummit.org/) Three day conference around Linux desktop applications ecosystem |
-| City, CC | 2019-09-XX, 18:00 - 21:00 | An example meeting [with link](#) |
+| Barcelona, Spain | 2019-11-12 to 2019-11-15 | [Linux App Summit](https://linuxappsummit.org/) - Three day conference around Linux desktop applications ecosystem |
+| Zurich, Switzerland | 2019-11-14 18:30 | [RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/) |
 
 # The Map
 
