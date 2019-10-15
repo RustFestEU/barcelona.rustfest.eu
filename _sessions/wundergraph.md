@@ -7,7 +7,7 @@ type: workshop
 speakers:
   - georg-semmler
 
-title: "Wundergraph or How to build a compile time GraphQL ORM"
+title: "Wundergraph or How to build a compile time GraphQL ORM using Diesel"
 
 desc: |
     The rust ecosystem is missing a performant crate to serve GraphQL APIs generated from existing database schemes.
