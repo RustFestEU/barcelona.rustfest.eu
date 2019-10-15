@@ -27,7 +27,7 @@ desc: |
     or if you're interested in how we managed to write a high-performance GraphQL server library, this workshop is for you.
 
 socialTwitterCardType: summary_large_image
-socialImageSrc: /assets/social/gaming.png
+socialImageSrc: /assets/social/wundergraph.png
 description: "Let's make a co-operative game featuring our friend the 🦀 collecting treats at the beach, using Rust and ggez!"
 
 public: true
