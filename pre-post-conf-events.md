@@ -18,6 +18,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 | -------- | ------------------------- | --------------------------------- |
 | Bergen, Norway | 2019-10-30 17:15 | [🦀 Rust with Jan-Erik](https://www.meetup.com/BitShift/events/265561649/) - Bitshift Meetup Bergen |
 | Berlin, Germany | 2019-10-30 19:00 | [Rust Hack and Learn](https://berline.rs/2019/10/30/rust-hack-and-learn.html) |
+| Karlsruhe, Germany | 2019-11-06 19:00 | [Rust Hack & Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/265403214/) |
 
 # Post Events
 
