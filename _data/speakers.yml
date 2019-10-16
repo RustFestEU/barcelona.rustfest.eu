@@ -256,6 +256,9 @@ lislis:
 marisa:
   name: Marisa
   thumbnailUrl: marisa.jpg
+  links:
+    - icon: github
+      link: https://github.com/fmoko
   desc: ""
 
 georg-semmler:
@@ -280,3 +283,10 @@ rvidal:
   desc: |
     Senior Engineer at Tuenti by day, Rustacean by night. Organizer of the [Madrid Rust meetup](https://www.meetup.com/MadRust/).
     He wants you to learn Rust.
+
+dylan:
+  name: Dylan De Souza
+  thumbnailUrl: dylan-dpc.jpg
+  links:
+    - icon: github
+      link: https://github.com/Dylan-DPC

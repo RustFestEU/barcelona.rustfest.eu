@@ -5,6 +5,7 @@ type: workshop
 display_first: true
 
 speakers:
+  - dylan
   - rvidal
   - marisa
 
