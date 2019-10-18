@@ -35,9 +35,9 @@ title: Workshops
                   <div id="{{speaker.name | slugify }}" class="speaker">
                     <div class="portrait">
                       {% if speaker.thumbnailUrl %}
-                      <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" />
+                      <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" alt="Portrait picture of {{speaker.name}}" />
                       {% else %}
-                      <img src="/assets/speakers/no-photo.jpg" />
+                      <img src="/assets/speakers/no-photo.jpg" alt="Missing speaker picture" />
                       {% endif %}
                     </div>
                     <div class="desc">

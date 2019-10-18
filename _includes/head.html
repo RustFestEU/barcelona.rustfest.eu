@@ -33,7 +33,6 @@
   {% endif %}
   <meta property="og:description" content="{{ page.description | default: site.description }}" />
 
-  <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ "/assets/favicons/favicon.ico" | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/favicons/apple-icon-152x152.png" | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/favicons/apple-icon-144x144.png" | prepend: site.baseurl }}">
@@ -54,3 +53,4 @@
 
   <link rel="manifest" href="{{ "/assets/manifest.json" | prepend: site.baseurl }}">
   <script src="{{ "/assets/pwa.js" | prepend: site.baseurl }}" async></script>
+</head>

@@ -65,7 +65,7 @@ bodytags: with-hero
         {% if speaker.featured %}
           <li class="speaker-box">
             <div  class="portrait">
-              <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" />
+              <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" alt="Portrait picture of {{speaker.name}}" />
             </div>
             <div class="info">
               <span class="name">{{speaker.name}}</span>
@@ -108,7 +108,7 @@ bodytags: with-hero
     <h2>Platinum Sponsor{% if platinum_sponsors[1] %}s{% endif %}</h2>
     <ul>
       {% for sponsor in platinum_sponsors %}
-        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="Logo of {{sponsor.name}}" /></a></li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -117,7 +117,7 @@ bodytags: with-hero
     <h2>Gold Sponsor{% if gold_sponsors[1] %}s{% endif %}</h2>
     <ul class="gold">
       {% for sponsor in gold_sponsors %}
-        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="Logo of {{sponsor.name}}" /></a></li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -126,7 +126,7 @@ bodytags: with-hero
     <h2>Silver Sponsor{% if silver_sponsors[1] %}s{% endif %}</h2>
     <ul class="silver">
       {% for sponsor in silver_sponsors %}
-        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" /></a></li>
+        <li><a href="{{sponsor.link}}" title="{{sponsor.name}}" rel="sponsored"><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="Logo of {{sponsor.name}}" /></a></li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -141,7 +141,7 @@ bodytags: with-hero
 
 <div id="news">
   <section>
-    <h2 class="headline">Latest news <a href="{{ "https://blog.rustfest.eu/feed.xml" | prepend: site.baseurl }}" target="_blank" aria-label="Link to the RSS Feed">{% include icons/rss-square.svg %}</a></h2>
+    <h2 class="headline">Latest news <a href="https://blog.rustfest.eu/feed.xml" target="_blank" aria-label="Link to the RSS Feed">{% include icons/rss-square.svg %}</a></h2>
     <div class="post">
     </div>
     <div style="text-align: right">
