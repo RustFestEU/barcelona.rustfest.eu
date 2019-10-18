@@ -30,29 +30,6 @@ function precache() {
     return caches.open(CACHE).then(function (cache) {
         return cache.addAll([
             '/',
-            '/favicon.png',
-            '/manifest.webmanifest',
-            '/projects/',
-            '/imprint/',
-            '/archive/',
-            '/category/blog.html',
-            '/category/organizing.html',
-            '/category/rust.html',
-            '/category/talks.html',
-            '/category/geschichten.html',
-            'category/mind-tux-map.html',
-            '/theme/css/reset.css',
-            '/theme/css/pygment.css',
-            '/theme/css/typogrify.css',
-            '/theme/css/basic.css',
-            '/extra/cache-starter.js',
-            '/extra/icon-192x192.png',
-            '/extra/icon-512x512.png',
-            '/theme/images/brands_gitlab.svg',
-            '/theme/images/brands_github.svg',
-            '/theme/images/brands_linkedin.svg',
-            '/theme/images/brands_twitter.svg',
-            '/theme/images/rss-square-solid.svg',
         ]);
     });
 }
