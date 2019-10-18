@@ -51,5 +51,6 @@
   <meta name="msapplication-config" content="{{ "/assets/favicons/browserconfig.xml" | prepend: site.baseurl }}">
 
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link rel='manifest' href='/assets/manifest.json'>
-  <script src="/assets/pwa.js" async></script>
+
+  <link rel="manifest" href="{{ "/assets/manifest.json" | prepend: site.baseurl }}">
+  <script src="{{ "/assets/pwa.js" | prepend: site.baseurl }}" async></script>
