@@ -1,7 +1,9 @@
 - title: News
   link: https://blog.rustfest.eu/
-- title: Talks
-  link: /talks/
+- title: Schedule
+  link: /schedule/
+- title: Workshops
+  link: /workshops/
 - title: impl Days
   link: /about_impl_days/
 - title: Location

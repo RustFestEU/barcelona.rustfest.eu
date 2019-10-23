@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "12:25"
+duration: "0:30"
+day: sunday
 
 speakers:
   - katharina-fey

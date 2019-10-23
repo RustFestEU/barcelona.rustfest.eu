@@ -26,7 +26,10 @@ This will allow us to have a less packed schedule and more time for you to enjoy
 
 ### Exact schedule
 
-We will publish an exact schedule, including all talks and workshops, before the conference.
-Keep an eye on [our blog](https://blog.rustfest.eu/) for more information.
+
+{% include_relative timetable_saturday.html %}
+
+{% include_relative timetable_sunday.html %}
+
 
 </section>

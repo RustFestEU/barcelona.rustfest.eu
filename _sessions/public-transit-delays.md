@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "09:40"
+duration: "0:30"
+day: sunday
 
 speakers:
   - neville-dipale

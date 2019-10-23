@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "11:30"
+duration: "0:30"
+day: sunday
 
 speakers:
   - tyler-mandry
