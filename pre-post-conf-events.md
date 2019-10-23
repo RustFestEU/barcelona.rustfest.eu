@@ -26,6 +26,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 | -------- | ------------------------- | --------------------------------- |
 | Barcelona, Spain | 2019-11-12 to 2019-11-15 | [Linux App Summit](https://linuxappsummit.org/) - Three day conference around Linux desktop applications ecosystem |
 | Hamburg, Germany | 2019-11-12 18:30 | [Rust Hack & Learn November 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/265899865/) |
+| Berlin, Germany | 2019-11-13 19:00 | [Rust Hack and Learn](https://www.meetup.com/Berlin-Mozilla-Meetup/events/tvmmslyzpbrb/) |
 | Zurich, Switzerland | 2019-11-14 18:30 | [RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/) |
 
 # The Map
