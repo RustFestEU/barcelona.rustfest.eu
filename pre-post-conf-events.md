@@ -16,6 +16,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 
 | Location |           When            |               What                |
 | -------- | ------------------------- | --------------------------------- |
+| Zürich, Switzerland | 2019-10-28 19:00 | [66 hours of Rust](https://www.meetup.com/Rust-Zurich/events/265507413/) (event probably full) |
 | Bergen, Norway | 2019-10-30 17:15 | [🦀 Rust with Jan-Erik](https://www.meetup.com/BitShift/events/265561649/) - Bitshift Meetup Bergen |
 | Berlin, Germany | 2019-10-30 19:00 | [Rust Hack and Learn](https://berline.rs/2019/10/30/rust-hack-and-learn.html) |
 | Karlsruhe, Germany | 2019-11-06 19:00 | [Rust Hack & Learn](https://www.meetup.com/Rust-Hack-Learn-Karlsruhe/events/265403214/) |
@@ -27,7 +28,7 @@ If you would like to submit your own event, please edit [this file](https://gith
 | Barcelona, Spain | 2019-11-12 to 2019-11-15 | [Linux App Summit](https://linuxappsummit.org/) - Three day conference around Linux desktop applications ecosystem |
 | Hamburg, Germany | 2019-11-12 18:30 | [Rust Hack & Learn November 2019](https://www.meetup.com/Rust-Meetup-Hamburg/events/265899865/) |
 | Berlin, Germany | 2019-11-13 19:00 | [Rust Hack and Learn](https://www.meetup.com/opentechschool-berlin/events/nxdpgryzpbrb/) |
-| Zurich, Switzerland | 2019-11-14 18:30 | [RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/) |
+| Zürich, Switzerland | 2019-11-14 18:30 | [RustFest Decompression Zürich](https://www.meetup.com/Rust-Zurich/events/265593126/) |
 
 # The Map
 
