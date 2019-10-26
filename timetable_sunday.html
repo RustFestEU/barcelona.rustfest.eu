@@ -1,0 +1,52 @@
+<div class='schedule'>
+  <section>
+    <h1 class="title">Sunday, 10th November</h1>
+
+    <table cellspacing='0'>
+      <tr class="breaks">
+        <td class="time">09<span>15</span></td>
+        <td class="centered">Auditorium opens</td>
+      </tr>
+      <tr class="breaks">
+        <td class="time">09<span>30</span></td>
+        <td class="centered">Welcome speech</td>
+      </tr>
+      {% assign talks_data = site.sessions | where: "day", "sunday" | where: "public", "true" | sort: "start" %}
+    {% for talk in talks_data %}
+      {% if talk.type == 'break' %}
+      <tr class="breaks">
+        <td class="time">{{talk.start | split: ":" | join: "<span>" }}</span></td>
+        <td class="centered">{{ talk.title }}</td>
+      </tr>
+      {% elsif talk.special == null or talk.special == 'Keynote' %}
+      <tr>
+        <td class="time"><a href="/sessions/{{talk.slug}}">
+          {{talk.start | split: ":" | join: "<span>" }}</span>
+        </a></td>
+        <td><a href="/sessions/{{talk.slug}}">
+          <div class='talk_info'>
+            {% if talk.special %}<span class="badge">Keynote</span>{% endif %}
+            {% if talk.type == 'workshop' %}<i>Workshop:</i>{% endif %}
+            {{talk.title}}<br>
+            {% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
+          </div>
+          <div class='speakers'>
+            {% for person in talk.speakers %}
+            <div class='speaker'>
+              {% assign speaker = site.data.speakers[person] %}
+              <img src="/assets/speakers/{{speaker.thumbnailUrl}}" />
+              {{speaker.name}}
+            </div>
+            {% endfor %}
+          </div>
+        </a></td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+      <tr class="breaks">
+        <td class="time">18<span>30</span></td>
+        <td class="centered">Closing Venue</td>
+      </tr>
+    </table>
+  </section>
+</div>

@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "12:05"
+duration: "0:15"
+day: sunday
 
 speakers:
   - pietro-albini

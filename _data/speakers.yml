@@ -290,3 +290,19 @@ dylan:
   links:
     - icon: github
       link: https://github.com/Dylan-DPC
+
+zeenix:
+  name: Zeeshan Ali
+  thumbnailUrl: zeenix.jpg
+  links:
+    - icon: gitlab
+      link: https://gitlab.freedesktop.org/zeenix
+    - icon: github
+      link: https://github.com/zeenix
+
+skade:
+  name: Florian Gilcher
+  thumbnailUrl: skade.png
+  links:
+    - icon: github
+      link: https://github.com/skade

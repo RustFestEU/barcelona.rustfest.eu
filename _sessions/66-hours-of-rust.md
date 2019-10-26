@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "11:45"
+duration: "0:30"
+day: saturday
 
 speakers:
   - claudia-saxer

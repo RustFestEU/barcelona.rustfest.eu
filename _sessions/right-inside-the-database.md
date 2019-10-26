@@ -2,6 +2,9 @@
 layout: session
 permalink: /sessions/:name
 type: talk
+start: "12:20"
+duration: "0:30"
+day: saturday
 
 speakers:
   - david-bach

@@ -11,6 +11,40 @@
 
     {% include footer.html %}
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      function strip(html) {
+        var tmp = document.createElement('div');
+        tmp.innerHTML = html;
+        return tmp.textContent || tmp.innerText || '';
+      }
+      $(function () {
+        $.ajax('https://blog.rustfest.eu/feed.xml').then(function (data) {
+          $(data).find('item').first().each(function () {
+            var post = $(this);
+
+            var url = post.find('link').text();
+            var title = post.find('title').text();
+            var description = strip(post.find('description').text());
+            var date = new Date(post.find('pubDate').text());
+            let postHtml = `
+              <span class="post-meta">${date.toDateString()}</span>
+
+              <h2>
+                <a class="post-link" href="${url}">${title}</a>
+              </h2>
+
+              <p>
+                <article>${description.substr(0, 350)} ...
+                <a href="${url}">continue reading</a></p>
+                </article>
+              </p>
+            `;
+            document.querySelector('#news .post').innerHTML = postHtml;
+          });
+        })
+      });
+    </script>
 
     <script type="text/javascript">
     /*! smooth-scroll v9.1.4 | (c) 2016 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
