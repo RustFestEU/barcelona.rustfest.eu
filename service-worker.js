@@ -1,4 +1,4 @@
-const CACHE = 'network-or-cache-V7';
+const CACHE = 'network-or-cache-V8';
 const NETWORK_TIMEOUT_MS = 500;
 
 self.addEventListener('install', function(evt) {
@@ -30,6 +30,17 @@ function precache() {
     return caches.open(CACHE).then(function (cache) {
         return cache.addAll([
             '/',
+            '/schedule/',
+            '/workshops/',
+            '/about_impl_days/',
+            '/location/',
+            '/pre_post_conf_events/',
+            '/info/',
+            '/about/',
+            '/sponsors/',
+            '/code-of-conduct/',
+            '/accessibility/',
+            '/imprint/',
         ]);
     });
 }
