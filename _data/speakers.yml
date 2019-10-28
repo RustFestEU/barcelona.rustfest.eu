@@ -29,6 +29,11 @@ sebastian-fernandez:
   name: Sebastian Fernandez
   thumbnailUrl: sebastian-fernandez.jpg
   featured: true
+  links:
+    - icon: github
+      link: https://github.com/snf
+    - icon: twitter
+      link: https://twitter.com/snfernandez
   desc: |
     Sebastian is a Security Engineer at Microsoft Security Response Center (MSRC) Vulnerabilities & Mitigations team.
     There, he spends his time tackling the problem of memory safety at scale and working
