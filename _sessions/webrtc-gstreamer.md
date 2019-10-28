@@ -24,5 +24,8 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/webrtc-gstreamer.png
 description: "Build a WebRTC peer to share audio/video streams using async network programming."
 
+start: "14:30"
+day: both
+
 public: true
 ---

@@ -10,8 +10,6 @@ speakers:
   - luca-palmieri
 
 desc: >
-    **2-day workshop**
-    <br>
     The `ndarray` ecosystem provides the basic building blocks to write scientific computing software in Rust:
     we will go through the main features,
     the data ownership model and other fundamental concepts required to properly leverage the strength of this suite of crates.
@@ -23,6 +21,9 @@ desc: >
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/machine-learning-ndarray.png
 description: "Implement some machine learning routines from scratch and learn about ndarray and its ecosystem."
+
+start: "14:30"
+day: both
 
 public: true
 ---

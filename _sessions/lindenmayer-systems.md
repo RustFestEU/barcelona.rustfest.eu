@@ -24,5 +24,8 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/lindenmayer-systems.png
 description: "This workshop will explore Lindenmayer systems, or L-systems."
 
+start: "14:30"
+day: sunday
+
 public: true
 ---

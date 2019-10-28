@@ -30,5 +30,8 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/wundergraph.png
 description: "Let's make a co-operative game featuring our friend the 🦀 collecting treats at the beach, using Rust and ggez!"
 
+start: "14:30"
+day: sunday
+
 public: true
 ---

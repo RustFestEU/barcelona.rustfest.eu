@@ -22,5 +22,8 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/fix-the-docs.png
 description: "Gather feedback and opinions on rustdoc and Rust documentation in general"
 
+start: "14:30"
+day: saturday
+
 public: true
 ---

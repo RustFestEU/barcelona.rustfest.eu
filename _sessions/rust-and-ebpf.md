@@ -7,8 +7,6 @@ type: workshop
 title: Rust and eBPF
 
 desc: >
-    **2-day workshop**
-    <br>
     In 2019, there's Kubernetes everywhere, and developers have become used to just dropping a container to get our apps running,
     then quickly forgetting them until something breaks again.
     The convenience is hard to question.
@@ -25,6 +23,9 @@ desc: >
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/rust-and-ebpf.png
 description: "Filter & monitor network traffic, intercept syscalls, all with the help of Rust and eBPF"
+
+start: "14:30"
+day: both
 
 public: true
 ---

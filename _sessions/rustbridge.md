@@ -11,8 +11,6 @@ speakers:
 
 title: RustBridge
 desc: |
-    **2-day workshop**
-    <br>
     RustBridge is an all-day workshop focused on getting underrepresented people
     with a background in another programming language to learn Rust and join the community.
     In this workshop we’ll get you up and running with a Rust development environment,
@@ -26,6 +24,9 @@ desc: |
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/rustbridge.png
 description: RustBridge is an all-day workshop focused on getting underrepresented people with a background in another programming language to learn Rust and join the community.
+
+start: "14:30"
+day: both
 
 public: true
 ---

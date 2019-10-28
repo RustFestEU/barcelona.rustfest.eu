@@ -24,5 +24,8 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/creative-coding-nannou.png
 description: "Creative coding is a way of looking at programming as a tool for creative expression."
 
+start: "14:30"
+day: saturday
+
 public: true
 ---
