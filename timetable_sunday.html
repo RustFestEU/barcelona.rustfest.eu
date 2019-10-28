@@ -11,8 +11,10 @@
         <td class="time">09<span>30</span></td>
         <td class="centered">Welcome speech</td>
       </tr>
-      {% assign talks_data = site.sessions | where: "day", "sunday" | where: "public", "true" | sort: "start" %}
-    {% for talk in talks_data %}
+      {% assign talks_data_day = site.sessions | where: "day", "sunday" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data_both = site.sessions | where: "day", "both" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data = talks_data_day | concat: talks_data_both %}
+      {% for talk in talks_data %}
       {% if talk.type == 'break' %}
       <tr class="breaks">
         <td class="time">{{talk.start | split: ":" | join: "<span>" }}</span></td>
