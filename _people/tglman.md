@@ -1,7 +1,7 @@
 ---
 name: Emanuele Tagliaferri
 groups:
-  - organizer
+  - family
 links:
   - icon: twitter
     link: https://twitter.com/tglman
