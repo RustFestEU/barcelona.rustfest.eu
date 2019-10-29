@@ -50,6 +50,17 @@ title: Workshops
                   </div>
                 {% endfor %}
               <div class="abstract">
+                {% if talk.day == "both" %}
+                <strong>2-day workshop</strong>
+                <br>
+                {% elsif talk.day == "saturday" %}
+                <strong>Saturday</strong>
+                <br>
+                {% elsif talk.day == "sunday" %}
+                <strong>Sunday</strong>
+                <br>
+                {% endif %}
+
                 {{talk.desc | markdownify}}
 
                 {% if talk.room %}

@@ -5,12 +5,27 @@
 <div class="popout">
   <section>
       <h1>{% if talk.type == "workshop" %}Workshop: {% endif %}{{talk.title}}</h1>
-      <h2>by
-        {% for speaker in talk.speakers %}
-        {{ site.data.speakers[speaker].name }}
-        {% unless forloop.last %}and{% endunless %}
-        {% endfor %}</h2>
+      <h2>
+        {% if talk.speakers %}
+          by
+          {% for speaker in talk.speakers %}
+          {{ site.data.speakers[speaker].name }}
+          {% unless forloop.last %}and{% endunless %}
+          {% endfor %}
+        {% endif %}
+      </h2>
       {% if page.room %}<h2>Room: {{page.room}}</h2>{% endif %}
+      <br>
+      <h3>
+          {% if talk.day == "both" %}
+          Both days
+          {% elsif talk.day == "saturday" %}
+          Saturday
+          {% elsif talk.day == "sunday" %}
+          Sunday
+          {% endif %}
+          at {{ talk.start }}
+      </h3>
   </section>
 </div>
 
@@ -43,6 +58,7 @@
               </div>
             {% endfor %}
           <div class="abstract">
+
             {{talk.desc | markdownify}}
 
             {% if talk.video %}
