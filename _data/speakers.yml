@@ -311,3 +311,8 @@ skade:
   links:
     - icon: github
       link: https://github.com/skade
+
+malwine:
+  name: Malwine
+  desc: |
+    Malwine is an artsy technologist and sketchnoter focusing on helping people understand through visualization.
