@@ -23,7 +23,11 @@
       {% else %}
       <tr>
         <td class="time"><a href="/sessions/{{talk.slug}}">
+          {% if talk.day == "both" %}
+          14<span>45</span>
+          {% else %}
           {{talk.start | split: ":" | join: "<span>" }}</span>
+          {% endif %}
         </a></td>
         <td><a href="/sessions/{{talk.slug}}">
           <div class='talk_info'>

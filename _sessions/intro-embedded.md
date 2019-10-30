@@ -23,7 +23,7 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/intro-embedded.png
 description: "Rust is a great choice for embedded development!"
 
-start: "14:30"
+start: "14:45"
 day: saturday
 
 public: true

@@ -25,7 +25,7 @@ socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/sketchnoting.png
 description: Sketching for faster learning and effective communication
 
-start: "14:30"
+start: "14:45"
 day: saturday
 
 public: true
