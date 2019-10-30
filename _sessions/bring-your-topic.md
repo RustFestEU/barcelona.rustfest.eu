@@ -2,7 +2,6 @@
 layout: session
 permalink: /sessions/:name
 type: workshop
-display_first: true
 
 title: "Bring your own topic"
 desc: |

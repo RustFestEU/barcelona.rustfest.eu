@@ -18,7 +18,10 @@ title: Workshops
 <div>
   <section>
     <ul class="talks">
-      {% assign talks_data = site.sessions | where: "type", "workshop" | sort: "display_first" | reverse %}
+      {% assign talks_data_both = site.sessions | where: "type", "workshop" | where: "day", "both" | sort: "display_first" | reverse %}
+      {% assign talks_data_saturday = site.sessions | where: "type", "workshop" | where: "day", "saturday" %}
+      {% assign talks_data_sunday = site.sessions | where: "type", "workshop" | where: "day", "sunday" %}
+      {% assign talks_data = talks_data_both | concat: talks_data_saturday | concat: talks_data_sunday %}
       {% for talk in talks_data %}
         {% if talk.public %}
           <li>
