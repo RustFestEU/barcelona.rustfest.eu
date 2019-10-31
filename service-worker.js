@@ -1,5 +1,5 @@
 const CACHE = 'network-or-cache-V9';
-const NETWORK_TIMEOUT_MS = 500;
+const NETWORK_TIMEOUT_MS = 2500;
 
 self.addEventListener('message', function(event){
     const url = event.data;
