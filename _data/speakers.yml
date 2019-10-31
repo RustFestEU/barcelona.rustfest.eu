@@ -316,3 +316,20 @@ malwine:
   name: Malwine
   desc: |
     Malwine is an artsy technologist and sketchnoter focusing on helping people understand through visualization.
+
+rahul-powar:
+  name: Rahul Powar
+  thumbnailUrl: rahul-powar.jpg
+  desc: |
+      Rahul is Founder and CEO of Red Sift, a venture-backed London start-up building a cognitive cybersecurity platform.
+      He codes, with a specialization in high-performance computation and distributed systems.
+      He built the music search cluster at Shazam, the App that recognizes music over your mobile phone.
+
+peter-parkanyi:
+  name: Peter Parkanyi
+  thumbnailUrl: peter-parkanyi.jpg
+  desc: |
+      Peter is a security engineer working with Rust for almost 5 years.
+      At Red Sift, he is working on InGRAIN, a security monitoring platform that uses Rust at its core.
+      In his free time, he runs a social media self-defence workshop at the London CryptoParty
+      and works on open source projects around cryptography, privacy, and distributed systems.

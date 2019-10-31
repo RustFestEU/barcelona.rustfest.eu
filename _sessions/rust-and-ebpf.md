@@ -2,6 +2,10 @@
 layout: session
 permalink: /sessions/:name
 
+speakers:
+  - peter-parkanyi
+  - rahul-powar
+
 type: workshop
 
 title: Rust and eBPF
