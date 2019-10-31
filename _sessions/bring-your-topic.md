@@ -17,7 +17,7 @@ desc: |
     Participation is voluntary, of course.
 
 socialTwitterCardType: summary_large_image
-socialImageSrc: /assets/social/networking-web.png
+socialImageSrc: /assets/social/bring-your-own-topic.png
 description: An ad-hoc space to discuss and present networking topics
 
 start: "14:30"
