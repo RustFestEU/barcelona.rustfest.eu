@@ -314,6 +314,10 @@ skade:
 
 malwine:
   name: Malwine
+  thumbnailUrl: malwine.jpg
+  links:
+    - icon: twitter
+      link: https://twitter.com/malweene
   desc: |
     Malwine is an artsy technologist and sketchnoter focusing on helping people understand through visualization.
 
