@@ -316,10 +316,17 @@ malwine:
   name: Malwine
   thumbnailUrl: malwine.jpg
   links:
+    - icon: website
+      link: https://malweene.com/
     - icon: twitter
       link: https://twitter.com/malweene
   desc: |
     Malwine is an artsy technologist and sketchnoter focusing on helping people understand through visualization.
+    On her current mission she educates about the opportunities and challenges of digital transformation.
+    She loves learning, creating and explaining everything around technology focussing on keeping the internet an open,
+    free and accessible space.
+    Malwine graduated in computer science and worked as a software developer for several years.
+
 
 rahul-powar:
   name: Rahul Powar

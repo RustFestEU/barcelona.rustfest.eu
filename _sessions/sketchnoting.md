@@ -8,14 +8,15 @@ speakers:
 
 title: Sketching for faster learning and effective communication
 desc: |
-    Ever seen sketchnotes at a conference, and wished you could communicate as clearly, and quickly?
+    Ever seen sketchnotes (visual notes of technical content) at a conference,
+    and wished you could communicate as clearly, and quickly?
 
     We’ll let you in on a secret - drawing is a teachable skill, just like writing code is.
 
-    We’ll start this workshop with introductory exercises we’ve refined at conference workshops this year,
-    to help you build some confidence.
+    We’ll start this workshop with fun introductory exercises we’ve refined at conference workshops this year,
+    to help you build some confidence. Materials will be provided.
 
-    Next we’ll show you how you can use these techniques to help with discussions around system design and software architecture,
+    Next we’ll show you how you can use visual techniques to help with discussions in daily work situations,
     summarise subjects you’re learning, or capture the key ideas from talks.
 
     You’ll leave with new confidence and skills you can use the same day!
