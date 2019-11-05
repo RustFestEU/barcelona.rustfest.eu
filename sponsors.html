@@ -73,9 +73,20 @@ title: Sponsoring
     {% endif %}
   </section>
 
+{% if mini[0] %}
+  <section>
+    <h2>Supporters</h2>
+    <hr />
+      <ul class="mini">
+        {% for sponsor in mini %}
+          <li><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></li>
+        {% endfor %}
+      </ul>
+  </section>
+{% endif %}
 {% if partners[0] %}
   <section>
-    <h2>Partners</h2>
+    <h2>Local organizers</h2>
     <hr />
       <ul>
         {% for sponsor in partners %}
@@ -97,17 +108,6 @@ title: Sponsoring
           {% if sponsor.desc %}
           <li><p>{{sponsor.desc}}</p></li>
           {% endif %}
-        {% endfor %}
-      </ul>
-  </section>
-{% endif %}
-{% if mini[0] %}
-  <section>
-    <h2>Supporters</h2>
-    <hr />
-      <ul class="mini">
-        {% for sponsor in mini %}
-          <li><img src="/assets/sponsors/{{sponsor.slug}}.{% if sponsor.png %}png{% else %}svg{% endif %}" alt="{{sponsor.name}}" /></li>
         {% endfor %}
       </ul>
   </section>
