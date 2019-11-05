@@ -19,6 +19,8 @@ desc: >
     Experience with embedded development is not required, but basic Rust experience would be helpful.
     Every participant will be provided with a LPC845-BRK development board, free of charge and for them to keep.
 
+    Find [installation instructions on Hanno's blog](https://braun-embedded.com/workshop/).
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/intro-embedded.png
 description: "Rust is a great choice for embedded development!"
