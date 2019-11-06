@@ -311,6 +311,8 @@ skade:
   links:
     - icon: github
       link: https://github.com/skade
+  desc: |
+      Florian Gilcher is a co-founder of Ferrous Systems and part of multiple FOSS projects, among those https://async.rs. He's part of the Rust core and community team.
 
 malwine:
   name: Malwine
