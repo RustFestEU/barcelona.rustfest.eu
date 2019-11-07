@@ -1,0 +1,109 @@
+---
+layout: empty
+permalink: /schedule-plain/
+title: Schedule
+---
+
+<div class='schedule'>
+  <section>
+    <h1 class="title">Saturday, 9th November</h1>
+
+    <table cellspacing='0'>
+      <tr class="breaks">
+        <td class="time">08<span>45</span></td>
+        <td class="centered">Registration opens</td>
+      </tr>
+      <tr class="breaks">
+        <td class="time">09<span>30</span></td>
+        <td class="centered">Welcome & Sponsors</td>
+      </tr>
+      {% assign talks_data_day = site.sessions | where: "day", "saturday" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data_both = site.sessions | where: "day", "both" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data = talks_data_day | concat: talks_data_both %}
+      {% for talk in talks_data %}
+      {% if talk.type == 'break' %}
+      <tr class="breaks">
+        <td class="time">{{talk.start | split: ":" | join: "<span>" }}</span></td>
+        <td class="centered">{{ talk.title }}</td>
+      </tr>
+      {% elsif talk.special == null or talk.special == 'Keynote' or talk.special == 'Project Highlight' %}
+      <tr>
+        <td class="time"><a href="/sessions/{{talk.slug}}">
+          {{talk.start | split: ":" | join: "<span>" }}</span>
+        </a></td>
+        <td><a href="/sessions/{{talk.slug}}">
+          <div class='talk_info'>
+            {% if talk.special %}<span class="badge">{{talk.special}}</span>{% endif %}
+            {{talk.title}}<br>
+            {% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
+          </div>
+          <div class='speakers'>
+            {% for person in talk.speakers %}
+            <div class='speaker'>
+              {% assign speaker = site.data.speakers[person] %}
+              {{speaker.name}}
+            </div>
+            {% endfor %}
+          </div>
+        </a></td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+      <tr class="breaks">
+        <td class="time">18<span>45</span></td>
+        <td class="centered">Closing Venue</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h1 class="title">Sunday, 10th November</h1>
+
+    <table cellspacing='0'>
+      <tr class="breaks">
+        <td class="time">09<span>15</span></td>
+        <td class="centered">Registration opens</td>
+      </tr>
+      <tr class="breaks">
+        <td class="time">09<span>30</span></td>
+        <td class="centered">Welcome speech</td>
+      </tr>
+      {% assign talks_data_day = site.sessions | where: "day", "sunday" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data_both = site.sessions | where: "day", "both" | where: "public", "true" | sort: "start" %}
+      {% assign talks_data = talks_data_day | concat: talks_data_both %}
+      {% for talk in talks_data %}
+      {% if talk.type == 'break' %}
+      <tr class="breaks">
+        <td class="time">{{talk.start | split: ":" | join: "<span>" }}</span></td>
+        <td class="centered">{{ talk.title }}</td>
+      </tr>
+      {% elsif talk.special == null or talk.special == 'Keynote' or talk.special == 'Project Highlight' %}
+      <tr>
+        <td class="time"><a href="/sessions/{{talk.slug}}">
+          {{talk.start | split: ":" | join: "<span>" }}</span>
+        </a></td>
+        <td><a href="/sessions/{{talk.slug}}">
+          <div class='talk_info'>
+            {% if talk.special %}<span class="badge">{{talk.special}}</span>{% endif %}
+            {{talk.title}}<br>
+            {% if talk.room %}Room: <b>{{talk.room}}</b>{% endif %}
+          </div>
+          <div class='speakers'>
+            {% for person in talk.speakers %}
+            <div class='speaker'>
+              {% assign speaker = site.data.speakers[person] %}
+              {{speaker.name}}
+            </div>
+            {% endfor %}
+          </div>
+        </a></td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+      <tr class="breaks">
+        <td class="time">18<span>30</span></td>
+        <td class="centered">Closing Venue</td>
+      </tr>
+    </table>
+  </section>
+</div>
