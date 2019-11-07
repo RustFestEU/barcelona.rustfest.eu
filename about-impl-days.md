@@ -14,7 +14,10 @@ permalink: /about_impl_days/
 "impl Days" is a two full-day event for Rust contributors to collaborate in an active programming session.
 They will take place on the two days following the RustFest talks and workshops, on {{site.dates.impl_days_no_br}} {{site.dates.year}} at **[{{site.location.venue}}](/location/#venue)**.
 
-Exact times will be posted in advance to the conference.
+For directions you can check the [location](/location) page.
+
+We open doors at **09:30** in the morning.  
+We will wind down at **17:00**.
 
 ## What to hack on
 
