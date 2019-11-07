@@ -344,3 +344,11 @@ peter-parkanyi:
       At Red Sift, he is working on InGRAIN, a security monitoring platform that uses Rust at its core.
       In his free time, he runs a social media self-defence workshop at the London CryptoParty
       and works on open source projects around cryptography, privacy, and distributed systems.
+
+jan-erik:
+    name: Jan-Erik Rediger
+    thumbnailUrl: janerik.jpg
+    desc: |
+        Jan-Erik is a Software Engineer at Mozilla.
+        He founded RustFest in 2016 and has been with the conference ever since.
+        To get away from computers he recently picked up scuba diving to see the world under water.

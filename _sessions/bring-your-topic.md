@@ -3,6 +3,9 @@ layout: session
 permalink: /sessions/:name
 type: workshop
 
+speakers:
+  - jan-erik
+
 title: "Bring your own topic"
 desc: |
     An ad-hoc space to present and discuss your latest research and experiments with Rust.
