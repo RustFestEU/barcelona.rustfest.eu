@@ -44,17 +44,17 @@ This year we will again provide pronoun stickers that non-verbally show by which
 
 Have you already heard about Color Communication Badges? We will be providing them for the very first time during registration and after. This resource is stemming from the autistic community and allows you to communicate your conversation preferences non-verbally. According to the guideline written by The Autistic Self Advocacy Network (ASAN), it works like this:
 
-Showing a green badge means that the person is actively seeking communication; they have trouble initiating conversations, but want to be approached by people who are interested in talking.
+Showing a **green badge** means that the person is actively seeking communication; they have trouble initiating conversations, but want to be approached by people who are interested in talking.
 
-Showing a yellow badge means that the person only wants to talk to people they recognize, not by strangers or people they only know from the Internet. The badge-wearer might approach strangers to talk, and that is okay; the approached people are welcome to talk back to them in that case. But unless you have already met the person face-to-face, you should not approach them to talk.
+Showing a **yellow badge** means that the person only wants to talk to people they recognize, not by strangers or people they only know from the Internet. The badge-wearer might approach strangers to talk, and that is okay; the approached people are welcome to talk back to them in that case. But unless you have already met the person face-to-face, you should not approach them to talk.
 
-Showing a red badge means that the person probably does not want to talk to anyone, or only wants to talk to a few people. The person might approach others to talk, and that is okay; the approached people are welcome to talk back to them in that case. But unless you have been told already by the badge-wearer that you are on their “red list”, you should not approach them to talk.
+Showing a **red badge** means that the person probably does not want to talk to anyone, or only wants to talk to a few people. The person might approach others to talk, and that is okay; the approached people are welcome to talk back to them in that case. But unless you have been told already by the badge-wearer that you are on their “red list”, you should not approach them to talk.
 
 [Read the complete ASAN guideline online.](https://autisticadvocacy.org/wp-content/uploads/2014/02/ColorCommunicationBadges.pdf)
 
 **Photography**
 
-On Saturday and Sunday there will be a professional photographer on site who will capture the conference’s best moments. We will have once more two kinds of lanyards: Black ones if you are ok with being photographed, and red ones if you do not wish so. We will inform the photographer to be considerate of this policy.
+On Saturday and Sunday there will be a professional photographer on site who will capture the conference’s best moments. We will have once more two kinds of lanyards: **Black ones** if you are ok with being photographed, and **red ones** if you do not wish so. We will inform the photographer to be considerate of this policy.
 
 **Gender-neutral toilets**
 
