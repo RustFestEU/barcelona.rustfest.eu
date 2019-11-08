@@ -56,34 +56,7 @@ bodytags: with-hero
   </section>
 </div>
 
-<div class="talks">
-  <section id="speakers">
-    <h2><span class="badge badge-Keynote">Keynote</span> R-Evolution: A Story of Rust Adoption</h2>
-    <ul class="speakers">
-      {% for item in site.data.speakers %}
-        {% assign speaker = item[1] %}
-        {% if speaker.featured %}
-          <li class="speaker-box">
-            <div  class="portrait">
-              <img src="{{site.event.assets | default: "/assets/"}}speakers/{{speaker.thumbnailUrl}}" alt="Portrait picture of {{speaker.name}}" />
-            </div>
-            <div class="info">
-              <span class="name">{{speaker.name}}</span>
-            </div>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    <div style="text-align: right">
-      <a class="button" href="/talks/">
-          Talks
-      </a>
-      <br />
-      <br />
-    </div>
-
-  </section>
-</div>
+{% include_relative timetable_saturday.html %}
 
 {% assign platinum_sponsors = site.sponsors | where: "level", "platinum" %}
 {% assign gold_sponsors = site.sponsors | where: "level", "gold" %}
@@ -92,17 +65,6 @@ bodytags: with-hero
 <div class='popout sponsors'>
   <section>
     <h1>Sponsors</h1>
-    <div>
-      <p class="desc">Become a sponsor</p>
-      <p>
-        <a class="button primary" href="/sponsors/packages">
-          Sponsor packages
-        </a>
-        <a class="button primary" href="mailto:sponsors@rustfest.eu">
-          Get in touch now
-        </a>
-      </p>
-    </div>
 
     {% if platinum_sponsors[0] %}
     <h2>Platinum Sponsor{% if platinum_sponsors[1] %}s{% endif %}</h2>
