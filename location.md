@@ -58,6 +58,10 @@ EU and EEA citizens can enter Barcelona without a visa, as long as a valid ID ca
 As usual, a visa granted for any Schengen member is valid in Spain as well.
 For more information, check out Wikivoyage on [Travelling around the Schengen Area](https://en.wikivoyage.org/wiki/Travelling_around_the_Schengen_Area).
 
+## Restaurants & Bars
+
+See [our map of restaurants, bars and parks](/food/).
+
 ## Venue
 
 Rustfest Barcelona 2019 is going to be held in the [Vèrtex building at Campus Nord](https://www.upc.edu/campusnord/ca/espais/auditori)
