@@ -39,7 +39,7 @@ socialTwitterCardType: "summary_large_image"
 <iframe width="1120" height="630" src="https://www.youtube-nocookie.com/embed/olMMEQfO0Vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<p>We have an experimental <a href="https://hubs.mozilla.com/xziCEhN/rustfest-livestream/">Mozilla Hubs Room</a> setup for watching together in a Mozilla WebVR enviroment. Please note that while the CoC applies there, but we cannot ensure constant and swift moderation. In case of issues or harrassment, please contact us on twitter or the phone number, and we will do our best.</p>
+<p>We have an experimental <a href="https://hubs.mozilla.com/xziCEhN/rustfest-livestream/">Mozilla Hubs Room</a> setup for watching together in a Mozilla WebVR enviroment. If the connection fails, try reloading. Mozilla Hubs is experimental software. Please note that while the CoC applies there, but we cannot ensure constant and swift moderation. In case of issues or harrassment, please contact us on twitter or the phone number, and we will do our best.</p>
 
 </div>
 
