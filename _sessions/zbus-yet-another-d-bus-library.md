@@ -2,7 +2,7 @@
 layout: session
 permalink: /sessions/:name
 type: talk
-start: "10:40"
+start: "11:00"
 duration: "0:30"
 day: saturday
 
