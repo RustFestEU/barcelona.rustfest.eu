@@ -1,5 +1,5 @@
 const CACHE = 'network-or-cache-V9';
-const NETWORK_TIMEOUT_MS = 2500;
+const NETWORK_TIMEOUT_MS = 500;
 
 self.addEventListener('message', function(event){
     const url = event.data;
@@ -10,7 +10,7 @@ self.addEventListener('message', function(event){
 
 self.addEventListener('install', function(evt) {
     console.log('The service worker is being installed.');
-    caches.delete(CACHE);
+    // caches.delete(CACHE);
     cleanupOldCaches(evt);
     evt.waitUntil(precache());
 });
