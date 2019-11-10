@@ -2,6 +2,7 @@
 name: Wouter Geraedts
 groups:
   - committee
+  - organizer
 links:
   - icon: github
     link: https://github.com/Wassasin/

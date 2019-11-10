@@ -2,6 +2,7 @@
 name: Dirkjan Ochtman
 groups:
   - committee
+  - organizer
 links:
   - icon: github
     link: https://github.com/djc
