@@ -10,7 +10,7 @@ type: workshop
 
 title: Rust and eBPF
 
-desc: >
+desc: |
     In 2019, there's Kubernetes everywhere, and developers have become used to just dropping a container to get our apps running,
     then quickly forgetting them until something breaks again.
     The convenience is hard to question.
