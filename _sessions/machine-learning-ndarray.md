@@ -9,7 +9,7 @@ title: A Machine Learning introduction to ndarray
 speakers:
   - luca-palmieri
 
-desc: >
+desc: |
     The `ndarray` ecosystem provides the basic building blocks to write scientific computing software in Rust:
     we will go through the main features,
     the data ownership model and other fundamental concepts required to properly leverage the strength of this suite of crates.

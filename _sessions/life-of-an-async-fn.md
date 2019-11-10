@@ -11,7 +11,7 @@ speakers:
 
 title: Life of an async fn
 
-desc: >
+desc: |
     async/await is one of the headline features to ship in Rust this year.
     But how does it actually work, and what does that mean for performance?
 

@@ -11,7 +11,7 @@ speakers:
 
 title: Amp Up Web Audio Applications with Rust and WebAssembly
 
-desc: >
+desc: |
     With the advent of the Web Audio API, creating browser-based audio applications became reality,
     potentially making creative applications available to a wider audience.
     There's just one problem: writing real-time digital sound processing code in a garbage-collected language isn't all that easy.

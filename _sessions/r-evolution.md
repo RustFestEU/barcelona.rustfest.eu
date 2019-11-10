@@ -12,7 +12,7 @@ speakers:
 
 title: "R-Evolution: A Story of Rust Adoption"
 special: Keynote
-desc: >
+desc: |
   The software industry has a billion dollar problem.
   Our underlying systems are built on a mountain of insecure technologies that make it next to impossible to write secure software.
   There are an innumerable amount of cases where Rust could have prevented serious security issues that not only had a deep impact on companies but more importantly on people.

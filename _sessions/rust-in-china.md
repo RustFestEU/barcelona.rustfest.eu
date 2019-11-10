@@ -12,7 +12,7 @@ speakers:
 
 title: Rust in China
 
-desc: >
+desc: |
     Rust in China is a different thing than Rust here.
     It's almost unimaginable.
     This is a field report from inside a Chinese software company building on Rust.

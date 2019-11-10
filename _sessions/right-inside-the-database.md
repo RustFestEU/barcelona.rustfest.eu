@@ -12,7 +12,7 @@ speakers:
 
 title: Right inside the database
 
-desc: >
+desc: |
     Modern, stateful web applications are increasingly dependent on high-frequency updates from multiple database systems.
     Each application maintains its own dynamic view of shared and private data.
     What if querying and synchronizing this state consistently was as simple as writing a Datalog query?

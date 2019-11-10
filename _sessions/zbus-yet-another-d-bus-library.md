@@ -11,7 +11,7 @@ speakers:
 
 title: "zbus: Yet another D-Bus library"
 
-desc: >
+desc: |
     In this talk, I will present zbus, a D-Bus crate written from scratch. D-Bus is an inter-process communication mechanism, available and used on almost all modern Linux desktops and many embedded systems. I will start with why I felt the need to take this huge undertaking on my shoulders, followed by the design goals, the challenges faced and how I overcame them during the development.
 
 socialTwitterCardType: summary_large_image

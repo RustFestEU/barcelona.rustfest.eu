@@ -11,7 +11,7 @@ speakers:
 
 title: Powering Crowd-sourcing of Public Transit Delays with Rust
 
-desc: >
+desc: |
     "Your train is arriving in between 20 to 90 minutes".
     This is a reality for about 3 million train commuters in South Africa,
     who not only battle to commute daily,

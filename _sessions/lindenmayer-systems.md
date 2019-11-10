@@ -9,7 +9,7 @@ speakers:
 
 title: "Lindenmayer systems; modeling the natural world"
 
-desc: >
+desc: |
     Nature has beautiful forms: from the crescent waves on the ocean to the beautiful wings of certain butterflies;
     from the stripes and spots of animals to the branching and weaving of plants and trees.
     All these patterns seem intricate and complex.

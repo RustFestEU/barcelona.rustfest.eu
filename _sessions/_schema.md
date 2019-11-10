@@ -27,7 +27,7 @@ special: Keynote
 title: Title of the session
 
 # Free text
-desc: >
+desc: |
    We were on the track ahead as the nightmare plastic column of foetid black iridescence
    oozed tightly onward through its fifteen-foot sinus; gathering unholy speed and driving
    before it a spiral, re-thickening cloud of the pallid abyss-vapour. It was a terrible,

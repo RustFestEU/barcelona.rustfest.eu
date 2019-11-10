@@ -9,7 +9,7 @@ speakers:
 
 title: WebRTC with GStreamer and Tokio
 
-desc: >
+desc: |
     In this workshop we will develop a small command-line application that acts as a WebRTC peer
     and can share audio/video streams with a web browser or another instance of the application.
 

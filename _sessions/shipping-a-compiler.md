@@ -11,7 +11,7 @@ speakers:
 
 title: Shipping a stable compiler every six weeks
 
-desc: >
+desc: |
     A new version of the Rust compiler is released every six weeks, with lots of new features and bug fixes in it.
     So far the Rust team managed to ship stable releases on schedule with almost no regressions,
     ensuring everyone can upgrade their toolchain without fear of broken builds.

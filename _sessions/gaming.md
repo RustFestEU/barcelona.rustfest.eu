@@ -10,7 +10,7 @@ speakers:
 
 title: "2D game programming with Rust"
 
-desc: >
+desc: |
     Ever wondered how to make games using Rust?
     New to Rust and hoping to use making a game as a good way to familiarize yourself with the language?
     Wanna have some fun and do some coding along the way?

@@ -10,7 +10,7 @@ speakers:
   - hanno-braun
   - matthias-endler
 
-desc: >
+desc: |
     Rust is a great choice for embedded development!
     It combines high-level abstractions with low-level control, safety with performance.
     In this workshop, you will learn embedded development on a microcontroller, using Rust.

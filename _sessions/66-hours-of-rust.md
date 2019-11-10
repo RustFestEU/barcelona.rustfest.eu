@@ -11,7 +11,7 @@ speakers:
 
 title: 66 hours of Rust
 
-desc: >
+desc: |
     Is it possible to learn Rust from Zero in just 66 hours?
     In this experience report I will tell you about the good,
     the bad and the ugly that I experienced on my journey through the universe of Rust

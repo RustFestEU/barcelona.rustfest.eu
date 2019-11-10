@@ -10,8 +10,7 @@ speakers:
   - mitchell-nordine
   - joshua-batty
 
-# Free text
-desc: >
+desc: |
     Creative coding is a way of looking at programming as a tool for creative expression.
     One of the beauties of creative coding is the potential to express ourselves in a wide variety of domains.
     Nannou aims to give equal priority and easy access to a full suite of creative I/O including graphics, multi-windowing, audio, LASERs, lighting and more.

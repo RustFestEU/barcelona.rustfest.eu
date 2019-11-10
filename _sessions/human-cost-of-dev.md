@@ -11,7 +11,7 @@ speakers:
 
 title: The human cost of development
 
-desc: >
+desc: |
     People talk about cost in software development.
     We know about runtime cost, compile-time cost, and even monetary-cost.
     People are aware that all of these are metrics that are important when discussing productivity.

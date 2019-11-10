@@ -9,7 +9,7 @@ speakers:
 
 title: Getting feedbacks/opinions on rustdoc and Rust documentation
 
-desc: >
+desc: |
     This workshop tries to gather feedback and opinions on what people would like to have changed/improved/added in rustdoc
     and Rust documentation more generally, but also discussing about some old (and "famous") issues to get some new insights.
 
