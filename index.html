@@ -7,11 +7,13 @@ bodytags: with-hero
     <h1>RustFest {{site.location.city}} {{site.dates.year}}</h1>
     <p>Let's meet again at a conference dedicated to the Rust programming language</p>
 
+    <!--
     <p style="text-align: center">
       <a class="button primary" href="/livetime/">
         Watch the Livestream
       </a>
     </p>
+    -->
 
     <div class="itemgroup">
       <div>
@@ -61,8 +63,6 @@ bodytags: with-hero
 
   </section>
 </div>
-
-{% include_relative timetable_sunday.html %}
 
 {% assign platinum_sponsors = site.sponsors | where: "level", "platinum" %}
 {% assign gold_sponsors = site.sponsors | where: "level", "gold" %}
