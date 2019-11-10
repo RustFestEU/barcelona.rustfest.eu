@@ -10,5 +10,5 @@ links:
     link: https://woutergeraedts.nl/
 
 jpg: true
-priority: 90
+priority: 80
 ---

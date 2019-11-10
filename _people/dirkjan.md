@@ -14,5 +14,5 @@ links:
     link: https://www.linkedin.com/in/dochtman/
 
 jpg: true
-priority: 10
+priority: 80
 ---
