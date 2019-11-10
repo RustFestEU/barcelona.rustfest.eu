@@ -33,8 +33,7 @@ The name refers to the first edition that took place during the 2017 "impl Perio
 natural choice. <a href="https://internals.rust-lang.org/t/the-impl-period-newsletter-2/6034">Over those two days</a>,
 30 to 40 people came together to discuss, design, and implement changes to Rust itself as well its broader ecosystem.
 
-Plus, <a href="https://botbot.me/mozilla/rust-internals/2017-10-02/?msg=91818378&page=2">they got to build a Lego Death
-Star</a>.
+Plus, they got to build a Lego Death Star.
 
 The Zurich "impl Days" were such a success that we decided to repeat the event in Paris and Rome where it was an even <a
 href="https://twitter.com/MozillaParis/status/1001434063264272384" target="_blank">bigger success</a> (also, <a
