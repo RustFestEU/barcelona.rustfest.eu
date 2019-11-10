@@ -19,10 +19,11 @@ For directions you can check the [location](/location) page.
 We open doors at **09:30** in the morning.  
 We will wind down at **17:00**.
 
+Entry at the right door of the building.
+
 ## What to hack on
 
-During the "impl Days" we will keep a live document with projects & teams.
-Check back here during the "impl Days".
+For updated project information, check our [live document](https://hackmd.io/XmsITAXASXquOJjgN82cew).
 
 ## History
 
