@@ -24,6 +24,9 @@ desc: >
 
     Bring your own workload, containers, VMs, cluster, mainframe, or Raspberry Pi.
 
+    On Sunday this workshop will repeat. If you haven't been before, this is your chance to attend.
+    If you joined on Saturday and want to continue to work with Rust and eBPF on your own, you are invited to come as well.
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/rust-and-ebpf.png
 description: "Filter & monitor network traffic, intercept syscalls, all with the help of Rust and eBPF"
