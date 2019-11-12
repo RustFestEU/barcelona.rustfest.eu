@@ -16,7 +16,7 @@ phone: +49 231 5896255
 
 **Catering and Sustainability**
 
-We’re providing water throughout the day as well as coffee and tea during the breaks. Feel free to bring your own drinking cup / bottle to avoid single-use items, if you have the possibility. Lunch will be served on both days at the venue as well as snacks provided during the short breaks (vegetarian and vegan options available). We are working together with the catering to make sure your dietary requirements are met. For the buffet there will be clear lists of ingredients and allergens of each dish.
+We’re providing water throughout the day as well as coffee and tea during the breaks. Feel free to bring your own drinking cup / bottle to avoid single-use items, if you have the possibility. Lunch will be served on both days at the venue as well as snacks provided during the short breaks (vegetarian and vegan options available). We are working together with the catering to make sure your dietary requirements are met. 
 
 **Code of Conduct and Contact information**
 
