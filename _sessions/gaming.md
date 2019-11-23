@@ -19,6 +19,10 @@ desc: |
 
     Let's make a co-operative game featuring our friend the 🦀 collecting treats at the beach, using Rust and ggez!
 
+details: |
+    * [Workshop material](https://github.com/lislis/workshop-rust-games/)
+    * [Installation tips & help](https://github.com/lislis/workshop-rust-games/wiki/Installation-and-help)
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/gaming.png
 description: "Let's make a co-operative game featuring our friend the 🦀 collecting treats at the beach, using Rust and ggez!"
