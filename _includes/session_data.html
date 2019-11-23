@@ -61,6 +61,12 @@
 
             {{talk.desc | markdownify}}
 
+            {% if talk.details %}
+            <h3>Details</h3>
+
+            {{talk.details | markdownify}}
+            {% endif %}
+
             {% if talk.video %}
             <p><a href="{{talk.video}}">Watch the video</a></p>
             {% endif %}
