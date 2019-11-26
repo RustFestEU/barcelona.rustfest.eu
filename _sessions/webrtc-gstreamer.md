@@ -19,6 +19,8 @@ desc: |
     Basic Rust knowledge is a requirement for this workshop
     and participants should bring a laptop (ideally with webcam/mic), running Linux, macOS or Windows, or pair with another participant on their laptop.
 
+details: |
+    * [Workshop material](https://github.com/sdroege/rustfest-barcelona19-gst-webrtc-workshop)
 
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/webrtc-gstreamer.png
