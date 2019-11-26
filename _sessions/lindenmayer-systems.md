@@ -20,6 +20,9 @@ desc: |
     These systems allow you to model various natural forms such as plants and it offers a playground for certain type of fractals.
     So let's explore your favorite natural forms.
 
+details: |
+    * [Workshop material](https://columbus-elst-connection.github.io/l-system-workshop/introduction.html)
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/lindenmayer-systems.png
 description: "This workshop will explore Lindenmayer systems, or L-systems."
