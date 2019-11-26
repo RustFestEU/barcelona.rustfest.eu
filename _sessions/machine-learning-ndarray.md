@@ -18,6 +18,9 @@ desc: |
     boil down to a bunch of matrix multiplications and linear algebra algorithms, with a sprinkle of statistics.
     We will implement from scratch some machine learning routines as a hands-on introduction to ndarray and its ecosystem.
 
+details: |
+    * [Workshop material](https://github.com/LukeMathWalker/ndarray-koans)
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/machine-learning-ndarray.png
 description: "Implement some machine learning routines from scratch and learn about ndarray and its ecosystem."
