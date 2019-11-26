@@ -17,6 +17,7 @@ desc: |
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/zbus.png
 description: "This talk explains how the D-Bus system and zbus work."
+video: https://www.youtube.com/watch?v=iWVn48Av8Ng
 
 public: true
 ---

@@ -24,7 +24,7 @@ desc: |
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/r-evolution.png
 description: "How can we all work together to make sure that as more companies start adopting Rust, the language gets even better?"
-
+video: https://www.youtube.com/watch?v=o01QmYVluSw
 
 public: true
 guid: "46276314-d564-11e9-a677-c33ba1bb2d0b"

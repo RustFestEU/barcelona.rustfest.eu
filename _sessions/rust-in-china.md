@@ -21,6 +21,7 @@ desc: |
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/rust-in-china.png
 description: "Rust in China is a different thing than Rust here."
+video: https://www.youtube.com/watch?v=j_ha1-1w6sw
 
 public: true
 ---
