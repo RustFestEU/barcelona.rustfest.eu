@@ -17,6 +17,9 @@ desc: |
     the bad and the ugly that I experienced on my journey through the universe of Rust
     from the perspective of a C# and TypeScript developer.
 
+details: |
+    * [Slides (PDF)](/assets/slides/Claudia_Saxer-66-hours-of-Rust.pdf)
+
 # social card
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/66-hours-of-rust.png
