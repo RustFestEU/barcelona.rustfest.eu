@@ -14,8 +14,6 @@ _This Code of Conduct is also available in [Dutch](http://nl.confcodeofconduct.c
 
 <address>
 Mail: <a href="mailto:coc@rustfest.eu">coc@rustfest.eu</a>
-<br>
-Phone: +49 231 5896255
 </address>
 
 <h2>The Quick Version</h2>

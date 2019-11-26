@@ -8,15 +8,13 @@ title: Accessibility, Awareness & Policies
 
 <address>
 Mail: <a href="mailto:team@rustfest.eu">team@rustfest.eu</a>
-<br>
-phone: +49 231 5896255
 </address>
 
 ---
 
 **Catering and Sustainability**
 
-We’re providing water throughout the day as well as coffee and tea during the breaks. Feel free to bring your own drinking cup / bottle to avoid single-use items, if you have the possibility. Lunch will be served on both days at the venue as well as snacks provided during the short breaks (vegetarian and vegan options available). We are working together with the catering to make sure your dietary requirements are met. 
+We’re providing water throughout the day as well as coffee and tea during the breaks. Feel free to bring your own drinking cup / bottle to avoid single-use items, if you have the possibility. Lunch will be served on both days at the venue as well as snacks provided during the short breaks (vegetarian and vegan options available). We are working together with the catering to make sure your dietary requirements are met.
 
 **Code of Conduct and Contact information**
 
@@ -26,8 +24,6 @@ In case of any emergency or Code of Conduct violation, contact any staff or acce
 
 <address>
 Mail: <a href="mailto:coc@rustfest.eu">coc@rustfest.eu</a>
-<br>
-phone: +49 231 5896255
 </address>
 
 <br>
