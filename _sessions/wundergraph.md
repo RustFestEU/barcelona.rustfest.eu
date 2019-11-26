@@ -26,6 +26,10 @@ desc: |
     If you like to see advanced uses of Rust's trait system,
     or if you're interested in how we managed to write a high-performance GraphQL server library, this workshop is for you.
 
+details: |
+    * [Workshop slides](https://weiznich.github.io/rustfest2019-diesel-workshop/#/wundergraph-or-how-to-build-a-compile-time-graphql-orm-using-diesel)
+    * [Workshop material](https://github.com/weiznich/wundergraph-workshop)
+
 socialTwitterCardType: summary_large_image
 socialImageSrc: /assets/social/wundergraph.png
 description: "Let's make a co-operative game featuring our friend the 🦀 collecting treats at the beach, using Rust and ggez!"
