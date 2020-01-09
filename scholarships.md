@@ -55,6 +55,16 @@ Our baselines for travel & accommodation reimbursement limits are:
 
 These are just guidelines, all upper limits for reimbursements will be communicated ahead of time to the awardees, as part of their acceptance letter, and we may only diverge from these set limits under special circumstances. All expenses should be submitted after the conference, and will be reimbursed as soon as possible, historically this meant that all awardees have received their refunds in 1 to 4 weeks after submission.
 
+For our accounting to be able to process the reimbursement, the receipt must contain the following information:
+
+- Date of purchase
+- Invoice number, receipt number or any other uniquely identifiable number
+- Company name (Who is the seller?)
+- Information on purchased item or service
+- Total paid amount, including tax 
+- Payment method (If it was paid electronically, it should contain some credit card information)
+
+Please request and save all receipts and send us a photo or scan after the conference. Bank account screenshots or credit card payment receipts only are not valid. 
 
 ### Travel letter
 
