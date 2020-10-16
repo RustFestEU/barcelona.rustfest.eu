@@ -4,7 +4,7 @@ description: >
   A Rust Community conference travelling all around Europe.
 
 baseurl: "" # the subpath of the site, e.g. /blog
-url: "https://www.rustfest.eu" # the base hostname & protocol for the site
+url: "https://barcelona.rustfest.eu" # the base hostname & protocol for the site
 metaKeywords: "rust, conf, rustfest, rustfesteu, conference, programming language"
 social:
   twitter: rustfest
